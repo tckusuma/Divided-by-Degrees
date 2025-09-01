@@ -1,0 +1,2593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ipums-ddi-xslt.xsl"?>
+<codeBook ID="ddi2-7572f8f0-59b3-013d-9727-0242ac180004-cps_00009.dat-cps.ipums.org" version="2.5" xmlns="ddi:codebook:2_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>Codebook for an IPUMS CPS Data Extract</titl>
+        <subTitl>DDI 2.5 metadata describing the extract file  'cps_00009.dat'</subTitl>
+        <IDNo>ddi2-7572f8f0-59b3-013d-9727-0242ac180004-cps_00009.dat-cps.ipums.org</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Minnesota">IPUMS</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="IPUMS" affiliation="University of Minnesota" role="Documentation">IPUMS</producer>
+        <prodDate date="2025-02-05">February 5, 2025</prodDate>
+        <prodPlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <contact URI="https://ipums.org" affiliation="University of Minnesota">IPUMS</contact>
+      </distStmt>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>User Extract cps_00009.dat</titl>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Minnesota">IPUMS</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="IPUMS" affiliation="University of Minnesota" role="Documentation">IPUMS</producer>
+        <prodDate date="2025-02-05">February 5, 2025</prodDate>
+        <prodPlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <contact URI="https://ipums.org" affiliation="University of Minnesota">IPUMS</contact>
+      </distStmt>
+      <serStmt>
+        <serName abbr="cps">IPUMS CPS</serName>
+        <serInfo>DOI:10.18128/D030.V12.0</serInfo>
+      </serStmt>
+      <verStmt>
+        <version date="2025-02-05"/>
+      </verStmt>
+    </citation>
+    <stdyInfo>
+      <subject>
+        <topcClas vocab="IPUMS">Technical Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Linking Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Technical Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Linking Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Work Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Data Quality Flags Variables -- PERSON</topcClas>
+      </subject>
+      <sumDscr ID="sdatref-2373">
+        <timePrd date="2003-01" event="single">2003-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2382">
+        <timePrd date="2003-02" event="single">2003-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2599">
+        <timePrd date="2003-03" event="single">2003-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2391">
+        <timePrd date="2003-04" event="single">2003-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2400">
+        <timePrd date="2003-05" event="single">2003-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2409">
+        <timePrd date="2003-06" event="single">2003-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2418">
+        <timePrd date="2003-07" event="single">2003-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2427">
+        <timePrd date="2003-08" event="single">2003-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2436">
+        <timePrd date="2003-09" event="single">2003-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2445">
+        <timePrd date="2003-10" event="single">2003-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2454">
+        <timePrd date="2003-11" event="single">2003-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2462">
+        <timePrd date="2003-12" event="single">2003-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2374">
+        <timePrd date="2004-01" event="single">2004-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2383">
+        <timePrd date="2004-02" event="single">2004-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2600">
+        <timePrd date="2004-03" event="single">2004-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2392">
+        <timePrd date="2004-04" event="single">2004-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2401">
+        <timePrd date="2004-05" event="single">2004-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2410">
+        <timePrd date="2004-06" event="single">2004-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2419">
+        <timePrd date="2004-07" event="single">2004-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2428">
+        <timePrd date="2004-08" event="single">2004-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2437">
+        <timePrd date="2004-09" event="single">2004-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2446">
+        <timePrd date="2004-10" event="single">2004-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2455">
+        <timePrd date="2004-11" event="single">2004-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2463">
+        <timePrd date="2004-12" event="single">2004-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2998">
+        <timePrd date="2005-01" event="single">2005-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2384">
+        <timePrd date="2005-02" event="single">2005-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2601">
+        <timePrd date="2005-03" event="single">2005-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2393">
+        <timePrd date="2005-04" event="single">2005-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2402">
+        <timePrd date="2005-05" event="single">2005-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2411">
+        <timePrd date="2005-06" event="single">2005-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2999">
+        <timePrd date="2005-07" event="single">2005-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2429">
+        <timePrd date="2005-08" event="single">2005-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2438">
+        <timePrd date="2005-09" event="single">2005-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2447">
+        <timePrd date="2005-10" event="single">2005-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3000">
+        <timePrd date="2005-11" event="single">2005-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2464">
+        <timePrd date="2005-12" event="single">2005-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2376">
+        <timePrd date="2006-01" event="single">2006-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2385">
+        <timePrd date="2006-02" event="single">2006-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2602">
+        <timePrd date="2006-03" event="single">2006-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2394">
+        <timePrd date="2006-04" event="single">2006-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2653">
+        <timePrd date="2006-05" event="single">2006-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2412">
+        <timePrd date="2006-06" event="single">2006-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2421">
+        <timePrd date="2006-07" event="single">2006-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2654">
+        <timePrd date="2006-08" event="single">2006-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2439">
+        <timePrd date="2006-09" event="single">2006-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2448">
+        <timePrd date="2006-10" event="single">2006-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2457">
+        <timePrd date="2006-11" event="single">2006-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2465">
+        <timePrd date="2006-12" event="single">2006-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2644">
+        <timePrd date="2007-01" event="single">2007-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2386">
+        <timePrd date="2007-02" event="single">2007-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2603">
+        <timePrd date="2007-03" event="single">2007-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2395">
+        <timePrd date="2007-04" event="single">2007-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2404">
+        <timePrd date="2007-05" event="single">2007-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2413">
+        <timePrd date="2007-06" event="single">2007-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2422">
+        <timePrd date="2007-07" event="single">2007-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2648">
+        <timePrd date="2007-08" event="single">2007-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2440">
+        <timePrd date="2007-09" event="single">2007-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2449">
+        <timePrd date="2007-10" event="single">2007-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2458">
+        <timePrd date="2007-11" event="single">2007-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2652">
+        <timePrd date="2007-12" event="single">2007-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2645">
+        <timePrd date="2008-01" event="single">2008-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2387">
+        <timePrd date="2008-02" event="single">2008-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2604">
+        <timePrd date="2008-03" event="single">2008-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2396">
+        <timePrd date="2008-04" event="single">2008-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2646">
+        <timePrd date="2008-05" event="single">2008-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2647">
+        <timePrd date="2008-06" event="single">2008-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2423">
+        <timePrd date="2008-07" event="single">2008-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2649">
+        <timePrd date="2008-08" event="single">2008-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2650">
+        <timePrd date="2008-09" event="single">2008-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2651">
+        <timePrd date="2008-10" event="single">2008-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2534">
+        <timePrd date="2008-11" event="single">2008-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2535">
+        <timePrd date="2008-12" event="single">2008-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2536">
+        <timePrd date="2009-01" event="single">2009-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2537">
+        <timePrd date="2009-02" event="single">2009-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2605">
+        <timePrd date="2009-03" event="single">2009-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2538">
+        <timePrd date="2009-04" event="single">2009-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2539">
+        <timePrd date="2009-05" event="single">2009-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2540">
+        <timePrd date="2009-06" event="single">2009-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2541">
+        <timePrd date="2009-07" event="single">2009-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2655">
+        <timePrd date="2009-08" event="single">2009-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2629">
+        <timePrd date="2009-09" event="single">2009-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2544">
+        <timePrd date="2009-10" event="single">2009-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2933">
+        <timePrd date="2009-11" event="single">2009-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2546">
+        <timePrd date="2009-12" event="single">2009-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2547">
+        <timePrd date="2010-01" event="single">2010-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2548">
+        <timePrd date="2010-02" event="single">2010-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2606">
+        <timePrd date="2010-03" event="single">2010-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2549">
+        <timePrd date="2010-04" event="single">2010-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2634">
+        <timePrd date="2010-05" event="single">2010-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2635">
+        <timePrd date="2010-06" event="single">2010-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2636">
+        <timePrd date="2010-07" event="single">2010-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2886">
+        <timePrd date="2010-08" event="single">2010-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2637">
+        <timePrd date="2010-09" event="single">2010-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2638">
+        <timePrd date="2010-10" event="single">2010-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2700">
+        <timePrd date="2010-11" event="single">2010-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2639">
+        <timePrd date="2010-12" event="single">2010-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2701">
+        <timePrd date="2011-01" event="single">2011-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2702">
+        <timePrd date="2011-02" event="single">2011-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2703">
+        <timePrd date="2011-03" event="single">2011-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2704">
+        <timePrd date="2011-04" event="single">2011-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2926">
+        <timePrd date="2011-05" event="single">2011-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2706">
+        <timePrd date="2011-06" event="single">2011-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2707">
+        <timePrd date="2011-07" event="single">2011-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2708">
+        <timePrd date="2011-08" event="single">2011-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2709">
+        <timePrd date="2011-09" event="single">2011-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2710">
+        <timePrd date="2011-10" event="single">2011-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2711">
+        <timePrd date="2011-11" event="single">2011-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2712">
+        <timePrd date="2011-12" event="single">2011-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2713">
+        <timePrd date="2012-01" event="single">2012-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2714">
+        <timePrd date="2012-02" event="single">2012-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2715">
+        <timePrd date="2012-03" event="single">2012-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2716">
+        <timePrd date="2012-04" event="single">2012-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2717">
+        <timePrd date="2012-05" event="single">2012-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2718">
+        <timePrd date="2012-06" event="single">2012-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2913">
+        <timePrd date="2012-07" event="single">2012-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2720">
+        <timePrd date="2012-08" event="single">2012-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2721">
+        <timePrd date="2012-09" event="single">2012-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2722">
+        <timePrd date="2012-10" event="single">2012-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2723">
+        <timePrd date="2012-11" event="single">2012-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2724">
+        <timePrd date="2012-12" event="single">2012-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2725">
+        <timePrd date="2013-01" event="single">2013-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2726">
+        <timePrd date="2013-02" event="single">2013-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2727">
+        <timePrd date="2013-03" event="single">2013-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2728">
+        <timePrd date="2013-04" event="single">2013-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2729">
+        <timePrd date="2013-05" event="single">2013-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2730">
+        <timePrd date="2013-06" event="single">2013-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2731">
+        <timePrd date="2013-07" event="single">2013-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2732">
+        <timePrd date="2013-08" event="single">2013-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2733">
+        <timePrd date="2013-09" event="single">2013-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2734">
+        <timePrd date="2013-10" event="single">2013-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2735">
+        <timePrd date="2013-11" event="single">2013-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2736">
+        <timePrd date="2013-12" event="single">2013-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2887">
+        <timePrd date="2014-01" event="single">2014-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2888">
+        <timePrd date="2014-02" event="single">2014-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2889">
+        <timePrd date="2014-03" event="single">2014-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2890">
+        <timePrd date="2014-04" event="single">2014-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2891">
+        <timePrd date="2014-05" event="single">2014-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2892">
+        <timePrd date="2014-06" event="single">2014-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2893">
+        <timePrd date="2014-07" event="single">2014-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2894">
+        <timePrd date="2014-08" event="single">2014-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2895">
+        <timePrd date="2014-09" event="single">2014-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2896">
+        <timePrd date="2014-10" event="single">2014-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2897">
+        <timePrd date="2014-11" event="single">2014-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2898">
+        <timePrd date="2014-12" event="single">2014-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2900">
+        <timePrd date="2015-01" event="single">2015-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2901">
+        <timePrd date="2015-02" event="single">2015-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2902">
+        <timePrd date="2015-03" event="single">2015-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2903">
+        <timePrd date="2015-04" event="single">2015-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2904">
+        <timePrd date="2015-05" event="single">2015-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2905">
+        <timePrd date="2015-06" event="single">2015-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2906">
+        <timePrd date="2015-07" event="single">2015-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2907">
+        <timePrd date="2015-08" event="single">2015-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2908">
+        <timePrd date="2015-09" event="single">2015-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2909">
+        <timePrd date="2015-10" event="single">2015-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2910">
+        <timePrd date="2015-11" event="single">2015-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2911">
+        <timePrd date="2015-12" event="single">2015-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2914">
+        <timePrd date="2016-01" event="single">2016-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2915">
+        <timePrd date="2016-02" event="single">2016-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2916">
+        <timePrd date="2016-03" event="single">2016-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2917">
+        <timePrd date="2016-04" event="single">2016-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2918">
+        <timePrd date="2016-05" event="single">2016-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2919">
+        <timePrd date="2016-06" event="single">2016-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2920">
+        <timePrd date="2016-07" event="single">2016-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2921">
+        <timePrd date="2016-08" event="single">2016-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2922">
+        <timePrd date="2016-09" event="single">2016-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2923">
+        <timePrd date="2016-10" event="single">2016-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2924">
+        <timePrd date="2016-11" event="single">2016-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2925">
+        <timePrd date="2016-12" event="single">2016-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2927">
+        <timePrd date="2017-01" event="single">2017-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2928">
+        <timePrd date="2017-02" event="single">2017-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2929">
+        <timePrd date="2017-03" event="single">2017-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2930">
+        <timePrd date="2017-04" event="single">2017-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2931">
+        <timePrd date="2017-05" event="single">2017-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2934">
+        <timePrd date="2017-06" event="single">2017-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2935">
+        <timePrd date="2017-07" event="single">2017-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2937">
+        <timePrd date="2017-08" event="single">2017-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2938">
+        <timePrd date="2017-09" event="single">2017-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2939">
+        <timePrd date="2017-10" event="single">2017-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2940">
+        <timePrd date="2017-11" event="single">2017-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2941">
+        <timePrd date="2017-12" event="single">2017-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2942">
+        <timePrd date="2018-01" event="single">2018-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2943">
+        <timePrd date="2018-02" event="single">2018-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2944">
+        <timePrd date="2018-03" event="single">2018-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2945">
+        <timePrd date="2018-04" event="single">2018-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2991">
+        <timePrd date="2018-05" event="single">2018-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2947">
+        <timePrd date="2018-06" event="single">2018-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2948">
+        <timePrd date="2018-07" event="single">2018-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2950">
+        <timePrd date="2018-08" event="single">2018-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2951">
+        <timePrd date="2018-09" event="single">2018-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2952">
+        <timePrd date="2018-10" event="single">2018-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2953">
+        <timePrd date="2018-11" event="single">2018-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2954">
+        <timePrd date="2018-12" event="single">2018-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2955">
+        <timePrd date="2019-01" event="single">2019-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2956">
+        <timePrd date="2019-02" event="single">2019-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2957">
+        <timePrd date="2019-03" event="single">2019-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2958">
+        <timePrd date="2019-04" event="single">2019-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2959">
+        <timePrd date="2019-05" event="single">2019-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2961">
+        <timePrd date="2019-06" event="single">2019-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2985">
+        <timePrd date="2019-07" event="single">2019-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2964">
+        <timePrd date="2019-08" event="single">2019-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2965">
+        <timePrd date="2019-09" event="single">2019-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2966">
+        <timePrd date="2019-10" event="single">2019-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2967">
+        <timePrd date="2019-11" event="single">2019-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2968">
+        <timePrd date="2019-12" event="single">2019-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2969">
+        <timePrd date="2020-01" event="single">2020-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2970">
+        <timePrd date="2020-02" event="single">2020-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2971">
+        <timePrd date="2020-03" event="single">2020-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2972">
+        <timePrd date="2020-04" event="single">2020-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2973">
+        <timePrd date="2020-05" event="single">2020-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2974">
+        <timePrd date="2020-06" event="single">2020-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2975">
+        <timePrd date="2020-07" event="single">2020-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2976">
+        <timePrd date="2020-08" event="single">2020-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2978">
+        <timePrd date="2020-09" event="single">2020-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2980">
+        <timePrd date="2020-10" event="single">2020-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2981">
+        <timePrd date="2020-11" event="single">2020-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2982">
+        <timePrd date="2020-12" event="single">2020-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2983">
+        <timePrd date="2021-01" event="single">2021-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2984">
+        <timePrd date="2021-02" event="single">2021-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2986">
+        <timePrd date="2021-03" event="single">2021-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2987">
+        <timePrd date="2021-04" event="single">2021-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2988">
+        <timePrd date="2021-05" event="single">2021-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2989">
+        <timePrd date="2021-06" event="single">2021-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3004">
+        <timePrd date="2021-07" event="single">2021-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2992">
+        <timePrd date="2021-08" event="single">2021-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2994">
+        <timePrd date="2021-09" event="single">2021-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2995">
+        <timePrd date="2021-10" event="single">2021-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2996">
+        <timePrd date="2021-11" event="single">2021-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2997">
+        <timePrd date="2021-12" event="single">2021-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3001">
+        <timePrd date="2022-01" event="single">2022-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3028">
+        <timePrd date="2022-02" event="single">2022-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3003">
+        <timePrd date="2022-03" event="single">2022-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3005">
+        <timePrd date="2022-04" event="single">2022-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3029">
+        <timePrd date="2022-05" event="single">2022-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3007">
+        <timePrd date="2022-06" event="single">2022-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3008">
+        <timePrd date="2022-07" event="single">2022-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3009">
+        <timePrd date="2022-08" event="single">2022-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3011">
+        <timePrd date="2022-09" event="single">2022-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3012">
+        <timePrd date="2022-10" event="single">2022-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3013">
+        <timePrd date="2022-11" event="single">2022-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3014">
+        <timePrd date="2022-12" event="single">2022-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3015">
+        <timePrd date="2023-01" event="single">2023-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3016">
+        <timePrd date="2023-02" event="single">2023-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3017">
+        <timePrd date="2023-03" event="single">2023-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3018">
+        <timePrd date="2023-04" event="single">2023-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3019">
+        <timePrd date="2023-05" event="single">2023-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3020">
+        <timePrd date="2023-06" event="single">2023-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3021">
+        <timePrd date="2023-07" event="single">2023-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3022">
+        <timePrd date="2023-08" event="single">2023-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3024">
+        <timePrd date="2023-09" event="single">2023-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3025">
+        <timePrd date="2023-10" event="single">2023-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3026">
+        <timePrd date="2023-11" event="single">2023-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3027">
+        <timePrd date="2023-12" event="single">2023-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3030">
+        <timePrd date="2024-01" event="single">2024-01</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3031">
+        <timePrd date="2024-02" event="single">2024-02</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3032">
+        <timePrd date="2024-03" event="single">2024-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3033">
+        <timePrd date="2024-04" event="single">2024-04</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3034">
+        <timePrd date="2024-05" event="single">2024-05</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3035">
+        <timePrd date="2024-06" event="single">2024-06</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3036">
+        <timePrd date="2024-07" event="single">2024-07</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3038">
+        <timePrd date="2024-08" event="single">2024-08</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3039">
+        <timePrd date="2024-09" event="single">2024-09</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3040">
+        <timePrd date="2024-10" event="single">2024-10</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3041">
+        <timePrd date="2024-11" event="single">2024-11</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3042">
+        <timePrd date="2024-12" event="single">2024-12</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2003
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2003
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2003
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2003
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2003
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2003
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2003
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2003
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2003
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2003
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2003
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2003
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2004
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2004
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2004
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2004
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2004
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2004
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2004
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2004
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2004
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2004
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2004
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2004
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2005
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2005
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2005
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2005
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2005
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2005
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2005
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2005
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2005
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2005
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2005
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2005
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2006
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2006
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2006
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2006
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2006
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2006
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2006
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2006
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2006
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2006
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2006
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2006
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2007
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2007
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2007
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2007
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2007
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2007
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2007
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2007
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2007
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2007
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2007
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2007
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2008
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2008
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2008
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2008
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2008
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2008
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2008
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2008
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2008
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2008
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2008
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2008
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2009
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2009
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2009
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2009
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2009
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2009
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2009
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2009
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2009
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2009
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2009
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2009
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2010
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2010
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2010
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2010
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2010
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2010
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2010
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2010
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2010
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2010
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2010
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2010
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2011
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2011
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2011
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2011
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2011
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2011
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2011
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2011
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2011
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2011
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2011
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2011
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2012
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2012
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2012
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2012
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2012
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2012
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2012
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2012
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2012
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2012
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2012
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2012
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2013
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2013
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2013
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2013
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2013
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2013
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2013
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2013
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2013
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2013
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2013
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2013
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2014
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2014
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2014
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2014
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2014
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2014
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2014
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2014
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2014
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2014
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2014
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2014
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2015
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2015
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2015
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2015
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2015
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2015
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2015
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2015
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2015
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2015
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2015
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2015
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2016
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2016
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2016
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2016
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2016
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2016
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2016
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2016
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2016
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2016
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2016
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2016
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2017
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2017
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2017
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2017
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2017
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2017
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2017
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2017
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2017
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2017
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2017
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2017
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2018
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2018
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2018
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2018
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2018
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2018
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2018
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2018
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2018
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2018
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2018
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2018
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2019
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2019
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2019
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2019
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2019
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2019
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2019
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2019
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2019
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2019
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2019
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2019
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2020
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2020
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2020
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2020
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2020
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2020
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2020
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2020
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2020
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2020
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2020
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2020
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2021
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2021
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2021
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2021
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2021
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2021
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2021
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2021
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2021
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2021
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2021
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2021
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2022
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2022
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2022
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2022
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2022
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2022
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2022
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2022
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2022
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2022
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2022
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2022
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2023
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2023
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2023
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2023
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2023
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2023
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2023
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2023
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2023
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2023
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2023
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2023
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, January 2024
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, February 2024
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, March 2024
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, April 2024
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, May 2024
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, June 2024
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, July 2024
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, August 2024
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, September 2024
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, October 2024
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, November 2024
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, December 2024
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+    </stdyInfo>
+    <dataAccs>
+      <useStmt>
+        <confDec required="no"><![CDATA[None]]></confDec>
+        <contact URI="http://cps.ipums.org/" affiliation="IPUMS">IPUMS CPS</contact>
+        <citReq><![CDATA[Publications and research reports based on the IPUMS CPS database must cite it appropriately. The citation should include the following:
+
+Sarah Flood, Miriam King, Renae Rodgers, Steven Ruggles, J. Robert Warren, Daniel Backman, Annie Chen, Grace Cooper, Stephanie Richards, Megan Schouweiler, and Michael Westberry. IPUMS CPS: Version 12.0 [dataset]. Minneapolis, MN: IPUMS, 2024. https://doi.org/10.18128/D030.V12.0
+
+The licensing agreement for use of IPUMS CPS data requires that users supply us with the title and full citation for any publications, research reports, or educational materials making use of the data or documentation. Please add your citation to the IPUMS bibliography: http://bibliography.ipums.org/]]></citReq>
+        <conditions><![CDATA[Users of IPUMS CPS data must agree to abide by the conditions of use. A user's license is valid for one year and may be renewed.  Users must agree to the following conditions:
+
+(1) No fees may be charged for use or distribution of the data.  All persons are granted a limited license to use these data, but you may not charge a fee for the data if you distribute it to others.
+
+(2) Cite IPUMS appropriately.  For information on proper citation,  refer to the citation requirement section of this DDI document.
+
+(3) Tell us about any work you do using the IPUMS.  Publications, research  reports, or presentations making use of IPUMS CPS should be added to our  Bibliography. Continued funding for the IPUMS depends on our ability to  show our sponsor agencies that researchers are using the data for productive  purposes.
+
+(4) Use it for GOOD -- never for EVIL.]]></conditions>
+        <disclaimer>The user of the data acknowledges that the original collector of the data, the authorized distributor of the data, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses.</disclaimer>
+      </useStmt>
+    </dataAccs>
+    <notes><![CDATA[User-provided description:  Month 2004-2024 CPS pull]]></notes>
+  </stdyDscr>
+  <fileDscr ID="ExtractData">
+    <fileTxt>
+      <fileName>cps_00009.dat</fileName>
+      <fileCont>Microdata records</fileCont>
+      <fileStrc type="rectangular"/>
+      <fileType charset="ISO-8859-1">ISO-8859-1 data file</fileType>
+      <format>fixed length fields</format>
+      <filePlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</filePlac>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr><var ID="YEAR" dcml="0" files="ExtractData" intrvl="contin" name="YEAR">
+  <location EndPos="4" StartPos="1" width="4"/>
+  <labl>Survey year</labl>
+  <txt><![CDATA[YEAR reports the year in which the survey was conducted.  YEARP is repeated on person records.]]></txt>
+  <codInstr><![CDATA[CodesYEAR is a 4-digit numeric value.]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="SERIAL" dcml="0" files="ExtractData" intrvl="contin" name="SERIAL">
+  <location EndPos="9" StartPos="5" width="5"/>
+  <labl>Household serial number</labl>
+  <txt><![CDATA[SERIAL is an identifying number unique to each household in a given survey month and year.  All person records are assigned the same serial number as the household record they follow.  A combination of YEAR, MONTH, and SERIAL provides a within-sample unique identifier for every household in IPUMS-CPS; YEAR, MONTH, SERIAL, and PERNUM uniquely identify every person within a single sample.
+
+SERIAL is a new value generated for IPUMS-CPS and should not be confused with the household serial number created by the Census Bureau and included in the original CPS data.]]></txt>
+  <codInstr><![CDATA[CodesSERIAL is a 5-digit numeric variable.]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="MONTH" dcml="0" files="ExtractData" intrvl="discrete" name="MONTH">
+  <location EndPos="11" StartPos="10" width="2"/>
+  <labl>Month</labl>
+  <txt><![CDATA[MONTH indicates the calendar month of the CPS interview.]]></txt>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>January</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>February</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>March</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>April</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>May</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>June</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>July</labl>
+  </catgry>
+  <catgry>
+    <catValu>08</catValu>
+    <labl>August</labl>
+  </catgry>
+  <catgry>
+    <catValu>09</catValu>
+    <labl>September</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>October</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>November</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>December</labl>
+  </catgry>
+  <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="HWTFINL" dcml="4" files="ExtractData" intrvl="contin" name="HWTFINL">
+  <location EndPos="21" StartPos="12" width="10"/>
+  <labl>Household weight, Basic Monthly</labl>
+  <txt><![CDATA[HWTFINL is a household-level weight that should be used to generate statistics about households. The CPS uses a complex stratified sampling scheme, and HWTFINL must be used to produce unbiased household-level statistics from IPUMS-CPS basic monthly samples. For analyses of March Annual Social and Economic (ASEC) data, researchers should use HWTSUPP (This variable was renamed. Please see this renaming scheme for more information.). For individual-level analyses, researchers should use WTFINL, WTSUPP, or EARNWT. 
+
+HWTFINL generally has the same value as WTFINL for the household head or reference person. Vacant housing units and households that could not be interviewed due to residents' absence or refusal to participate have a value of zero in HWTFINL; such sampled units were included in the public use CPS data beginning in 1988.]]></txt>
+  <codInstr><![CDATA[CodesHWTFINL is a 10-digit numeric variable.]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="CPSID" dcml="0" files="ExtractData" intrvl="contin" name="CPSID">
+  <location EndPos="35" StartPos="22" width="14"/>
+  <labl>CPSID, household record</labl>
+  <txt><![CDATA[CPSID is an IPUMS-CPS defined variable that uniquely identifies households across CPS samples. The first six digits of CPSID index the four-digit year and two-digit month that the household was first in the CPS. CPSID allows users to link a household record across samples, based on the 4-8-4 rotation pattern, by assigning a unique CPSID value based on a combination of household identifiers. CPSID will only ever appear for a maximum of 8 times, which is the number of times a household may be observed in the CPS survey (as indexed by MISH). In some cases, a household will appear fewer than 8 times due to migration, mortality, non-response, and recording errors. CPSID Extensive documentation about the creation of CPSID is available elsewhere.
+
+CPSID may also be used to link ASEC respondents who are in the March Basic Monthly file to other months of CPS data. This linking is made possible by IPUMS through the creation of MARBASECIDP. Users should note that ASEC oversample households (as indicated by ASECOVERH) will always have a CPSID value of 0.
+
+Users may also want to see CPSIDP for more information about linking individuals across time using a person-specific version of CPSID.]]></txt>
+  <codInstr><![CDATA[CodesCPSID is a 14-digit numeric variable.]]></codInstr>
+  <concept vocab="IPUMS">Linking Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="ASECFLAG" dcml="0" files="ExtractData" intrvl="discrete" name="ASECFLAG">
+  <location EndPos="36" StartPos="36" width="1"/>
+  <labl>Flag for ASEC</labl>
+  <txt><![CDATA[ASECFLAG indicates whether the respondent is part of the ASEC or the March Basic. This variable is useful for users who wish to distinguish ASEC and March Basic files in their extracts. See further information about the ASEC versus the March Basic Monthly Files.]]></txt>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>ASEC</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>March Basic</labl>
+  </catgry>
+  <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="PERNUM" dcml="0" files="ExtractData" intrvl="contin" name="PERNUM">
+  <location EndPos="38" StartPos="37" width="2"/>
+  <labl>Person number in sample unit</labl>
+  <txt><![CDATA[PERNUM numbers all persons within each household consecutively (starting with "1") in the order in which they are listed in the original CPS data.  When combined with YEAR , MONTH, and SERIAL, PERNUM uniquely identifies each person within IPUMS-CPS samples, though not across IPUMS-CPS samples.]]></txt>
+  <codInstr><![CDATA[CodesPERNUM is a 2-digit numeric variable.]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="WTFINL" dcml="4" files="ExtractData" intrvl="contin" name="WTFINL">
+  <location EndPos="52" StartPos="39" width="14"/>
+  <labl>Final Basic Weight</labl>
+  <txt><![CDATA[WTFINL is the final person-level weight that should be used in analyses of basic monthly data. 
+
+When analyzing ASEC data, researchers should use the person weight ASECWT. For analyses including the variables EARNWEEK, HOURWAGE, PAIDHOUR, and UNION, researchers should use the EARNWT variable. 
+
+WTFINL is the second stage weight in CPS (see technical documentation). It is based on the inverse probability of selection into the sample and adjustments for the following factors: failure to obtain an interview; sampling within large sample units; adjustments to the known distribution of the entire population according to stage, age, sex, race, and Hispanic ethnicity; and allotting a weight of zero to populations not sampled in other monthly surveys (i.e., persons in the Hispanic oversample and members of the armed forces in ASEC samples).]]></txt>
+  <codInstr><![CDATA[CodesWTFINL is a 14-digit numeric variable with four implied decimals.  That is, 12345678901234 should be interpreted as 1234567890.1234.  The IPUMS command files automatically make the necessary adjustment, so no further adjustment is needed.]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="CPSIDP" dcml="0" files="ExtractData" intrvl="contin" name="CPSIDP">
+  <location EndPos="66" StartPos="53" width="14"/>
+  <labl>CPSID, person record</labl>
+  <txt><![CDATA[CPSIDP is an IPUMS CPS defined variable that uniquely identifies individuals across CPS samples. The first six digits of CPSIDP index the four-digit year and two-digit month that the household was first in the CPS. CPSIDP allows users to link a respondent appearing with a designated household roster line number (LINENO) across samples, based on the 4-8-4 rotation pattern, by assigning a unique CPSIDP value to this line number. CPSIDP will only ever appear for a maximum of 8 times, which is the number of times a household may be observed in the CPS survey (as indexed by MISH). In some cases, individuals will appear fewer than 8 times due to migration, mortality, non-response, and recording errors. Extensive documentation about the creation of CPSIDP is available elsewhere.
+
+Users should note that it is important to verify CPSIDP linkages with AGE, SEX, and RACE. In some cases CPSIDP will result in erroneous links, which are due to errors in the source data. Cases with the same CPSIDP value may also have inconsistent responses across samples due to errors on the part of the respondent or in recording the response. Ultimately, it is up to the individual researcher to determine the acceptability of the linkages made using CPSIDP. 
+
+CPSIDP may also be used to link ASEC respondents who are in the March Basic Monthly file to other months of CPS data. This linking is made possible by IPUMS through the creation of MARBASECIDP. 
+
+To get started using CPSIDP, users may want to sort their data file by CPSIDP and MISH to create a person-time file. 
+
+Users should take care when including the March Basic or ASEC as part of their linking. Respondents who are part of the ASEC oversample (as indicated by ASECOVERP) have a CPSIDP value of 0. For further information about the relationship between the March Basic and the ASEC, please see our additional documentation.]]></txt>
+  <codInstr><![CDATA[CodesCPSIDP is a 14-digit numeric variable.]]></codInstr>
+  <concept vocab="IPUMS">Linking Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="CPSIDV" dcml="0" files="ExtractData" intrvl="contin" name="CPSIDV">
+  <location EndPos="81" StartPos="67" width="15"/>
+  <labl>Validated Longitudinal Identifier</labl>
+  <txt><![CDATA[CPSIDV is an IPUMS CPS-created variable that uniquely identifies individuals across CPS samples. In addition to linking records across the CPS 4-8-4 rotation pattern, CPSIDV only makes links between those records whose SEX and RACE values do not change and whose AGE values change in expected ways over time. 
+
+CPSIDV is based on CPSIDP and so there are some structural similarities between them. The first six digits of CPSIDV are identical to CPSIDP - the four-digit year and two-digit month that the household was first in the CPS. Like CPSIDP, CPSIDV allows users to link a respondent appearing with a designated household roster line number (LINENO) across samples, based on the 4-8-4 rotation pattern. 
+
+Only records that link using CPSIDP that also have consistent race and sex values and age values that increase at least one but not more than two years over the course of the 16-month CPS rotation are linkable using CPSIDV. As a result, linkage rates using CPSIDV are slightly lower than those achieved using CPSIDP. However, linkages created with CPSIDV do not require the recommended post-linking verification steps recommended for use with CPSIDP links. Users should note that original, unharmonized values of age, sex, and race are used in the creation of CPSIDV. The procedure and validation criteria for creating CPSIDV are described in detail in A Holistic Approach to Validating Current Population Survey Panel Data. 
+
+CPSIDV may also be used to link ASEC respondents who are in the March Basic Monthly file to other months of CPS data. This linking is made possible by IPUMS through the creation of MARBASECIDP. 
+
+To get started using CPSIDV, users may want to sort their data file by CPSIDV and MISH to create a person-time file. 
+
+Users should take care when including the March Basic or ASEC as part of their linking. Respondents who are part of the ASEC oversample (as indicated by ASECOVERP) have a CPSIDV value of 0. For further information about the relationship between the March Basic and the ASEC, please see our additional documentation.]]></txt>
+  <codInstr><![CDATA[CodesCPSIDV is a 15-digit numeric variable.]]></codInstr>
+  <concept vocab="IPUMS">Linking Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="PROFCERT" dcml="0" files="ExtractData" intrvl="discrete" name="PROFCERT">
+  <location EndPos="83" StartPos="82" width="2"/>
+  <labl>Has active professional certification or license</labl>
+  <txt><![CDATA[PROFCERT indicates whether the respondent has a professional certification or state or industry license. Business licenses are not included.]]></txt>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>99</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="STATECERT" dcml="0" files="ExtractData" intrvl="discrete" name="STATECERT">
+  <location EndPos="85" StartPos="84" width="2"/>
+  <labl>Has government-issued professional certification or licesnse</labl>
+  <txt><![CDATA[STATECERT indicates whether a respondent's professional, state, or industry license was issued by the federal, state or local government.]]></txt>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>99</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="QPROFCERT" dcml="0" files="ExtractData" intrvl="discrete" name="QPROFCERT">
+  <location EndPos="87" StartPos="86" width="2"/>
+  <labl>Data quality flag for PROFCERT</labl>
+  <txt><![CDATA[Data quality flag for PROFCERT.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>No change</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>Blank to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>Value to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>Allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>Value to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>Blank to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>Don't know to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>Refused to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>08</catValu>
+    <labl>Blank to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>09</catValu>
+    <labl>Don't know to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Refused to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>Value to longitudinal value</labl>
+  </catgry>
+  <concept vocab="IPUMS">Data Quality Flags Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+  <notes>This variable functions as a data quality flag.</notes>
+</var>
+<var ID="QSTATECERT" dcml="0" files="ExtractData" intrvl="discrete" name="QSTATECERT">
+  <location EndPos="89" StartPos="88" width="2"/>
+  <labl>Data quality flag for STATECERT</labl>
+  <txt><![CDATA[Data quality flag for STATECERT.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>No change</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>Blank to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>Value to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>Allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>Value to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>Blank to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>Don't know to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>Refused to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>08</catValu>
+    <labl>Blank to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>09</catValu>
+    <labl>Don't know to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Refused to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>Value to longitudinal value</labl>
+  </catgry>
+  <concept vocab="IPUMS">Data Quality Flags Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+  <notes>This variable functions as a data quality flag.</notes>
+</var>
+<var ID="JOBCERT" dcml="0" files="ExtractData" intrvl="discrete" name="JOBCERT">
+  <location EndPos="91" StartPos="90" width="2"/>
+  <labl>Certification is required for job</labl>
+  <txt><![CDATA[JOBCERT indicates whether a respondent's government-issued professional, state, or industry license was required for their job. Employed persons were asked about their current job or their main job if they had multiple jobs. Unemployed respondents who had worked in the past were asked about the job from which they were on layoff or the job at which they last worked.]]></txt>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>99</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="QJOBCERT" dcml="0" files="ExtractData" intrvl="discrete" name="QJOBCERT">
+  <location EndPos="93" StartPos="92" width="2"/>
+  <labl>Data quality flag for JOBCERT</labl>
+  <txt><![CDATA[Data quality flag for JOBCERT.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>No change</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>Blank to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>Value to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>Allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>Value to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>Blank to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>Don't know to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>Refused to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>08</catValu>
+    <labl>Blank to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>09</catValu>
+    <labl>Don't know to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Refused to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>Value to longitudinal value</labl>
+  </catgry>
+  <concept vocab="IPUMS">Data Quality Flags Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+  <notes>This variable functions as a data quality flag.</notes>
+</var>
+</dataDscr>
+</codeBook>

@@ -1,0 +1,3939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ipums-ddi-xslt.xsl"?>
+<codeBook xmlns="ddi:codebook:2_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd" version="2.5" ID="ddi2-7572f8f0-59b3-013d-9727-0242ac180004-cps_00013.dat-cps.ipums.org">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>Codebook for an IPUMS CPS Data Extract</titl>
+        <subTitl>DDI 2.5 metadata describing the extract file  'cps_00013.dat'</subTitl>
+        <IDNo>ddi2-7572f8f0-59b3-013d-9727-0242ac180004-cps_00013.dat-cps.ipums.org</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Minnesota">IPUMS</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="IPUMS" affiliation="University of Minnesota" role="Documentation">IPUMS</producer>
+        <prodDate date="2025-07-14">July 14, 2025</prodDate>
+        <prodPlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <contact affiliation="University of Minnesota" URI="https://ipums.org">IPUMS</contact>
+      </distStmt>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>User Extract cps_00013.dat</titl>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Minnesota">IPUMS</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="IPUMS" affiliation="University of Minnesota" role="Documentation">IPUMS</producer>
+        <prodDate date="2025-07-14">July 14, 2025</prodDate>
+        <prodPlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <contact affiliation="University of Minnesota" URI="https://ipums.org">IPUMS</contact>
+      </distStmt>
+      <serStmt>
+        <serName abbr="cps">IPUMS CPS</serName>
+        <serInfo>DOI:10.18128/D030.V12.0</serInfo>
+      </serStmt>
+      <verStmt>
+        <version date="2025-07-14"/>
+      </verStmt>
+    </citation>
+    <stdyInfo>
+      <subject>
+        <topcClas vocab="IPUMS">Technical Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Linking Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Economic Characteristics Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Technical Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Linking Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Outgoing Rotation Groups (Earner Study) Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Demographics Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Demographics Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Data Quality Flags Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Family Interrelationships Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Ethnicity/Nativity Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Work Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Education Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Disability Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Work Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Income Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Supplemental Poverty Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Disability Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Health Insurance Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Education Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Hours Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Technical Variables -- PERSON</topcClas>
+      </subject>
+      <sumDscr ID="sdatref-2362">
+        <timePrd event="single" date="2004-03">2004-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2363">
+        <timePrd event="single" date="2005-03">2005-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2364">
+        <timePrd event="single" date="2006-03">2006-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2367">
+        <timePrd event="single" date="2007-03">2007-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2366">
+        <timePrd event="single" date="2008-03">2008-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2368">
+        <timePrd event="single" date="2009-03">2009-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2369">
+        <timePrd event="single" date="2010-03">2010-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2467">
+        <timePrd event="single" date="2011-03">2011-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2640">
+        <timePrd event="single" date="2012-03">2012-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2656">
+        <timePrd event="single" date="2013-03">2013-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2737">
+        <timePrd event="single" date="2014-03">2014-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2899">
+        <timePrd event="single" date="2015-03">2015-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2912">
+        <timePrd event="single" date="2016-03">2016-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2936">
+        <timePrd event="single" date="2017-03">2017-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2949">
+        <timePrd event="single" date="2018-03">2018-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2963">
+        <timePrd event="single" date="2019-03">2019-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2977">
+        <timePrd event="single" date="2020-03">2020-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2993">
+        <timePrd event="single" date="2021-03">2021-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3010">
+        <timePrd event="single" date="2022-03">2022-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3023">
+        <timePrd event="single" date="2023-03">2023-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3037">
+        <timePrd event="single" date="2024-03">2024-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2004
+            Density of the full data file:  0.15%
+            Density of this extract: 0.2%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2005
+            Density of the full data file:  0.15%
+            Density of this extract: 0.2%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2006
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2007
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2008
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2009
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2010
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2011
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2012
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2013
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2014
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2015
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2016
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2017
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2018
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2019
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2020
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2021
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2022
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2023
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2024
+            Density of the full data file:  0.01%
+            Density of this extract: 0.0%
+]]></notes>
+    </stdyInfo>
+    <dataAccs>
+      <useStmt>
+        <confDec required="no"><![CDATA[None]]></confDec>
+        <contact affiliation="IPUMS" URI="http://cps.ipums.org/">IPUMS CPS</contact>
+        <citReq><![CDATA[Publications and research reports based on the IPUMS CPS database must cite it appropriately. The citation should include the following:
+
+Sarah Flood, Miriam King, Renae Rodgers, Steven Ruggles, J. Robert Warren, Daniel Backman, Annie Chen, Grace Cooper, Stephanie Richards, Megan Schouweiler, and Michael Westberry. IPUMS CPS: Version 12.0 [dataset]. Minneapolis, MN: IPUMS, 2024. https://doi.org/10.18128/D030.V12.0
+
+The licensing agreement for use of IPUMS CPS data requires that users supply us with the title and full citation for any publications, research reports, or educational materials making use of the data or documentation. Please add your citation to the IPUMS bibliography: http://bibliography.ipums.org/]]></citReq>
+        <conditions><![CDATA[Users of IPUMS CPS data must agree to abide by the conditions of use. A user's license is valid for one year and may be renewed.  Users must agree to the following conditions:
+
+(1) No fees may be charged for use or distribution of the data.  All persons are granted a limited license to use these data, but you may not charge a fee for the data if you distribute it to others.
+
+(2) Cite IPUMS appropriately.  For information on proper citation,  refer to the citation requirement section of this DDI document.
+
+(3) Tell us about any work you do using the IPUMS.  Publications, research  reports, or presentations making use of IPUMS CPS should be added to our  Bibliography. Continued funding for the IPUMS depends on our ability to  show our sponsor agencies that researchers are using the data for productive  purposes.
+
+(4) Use it for GOOD -- never for EVIL.]]></conditions>
+        <disclaimer>The user of the data acknowledges that the original collector of the data, the authorized distributor of the data, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses.</disclaimer>
+      </useStmt>
+    </dataAccs>
+    <notes><![CDATA[User-provided description:  (ASEC 2004-2024) pulling in un-harmonized variables]]></notes>
+    <notes>This extract is a revision of the user's previous extract, ID 18941227.</notes>
+  </stdyDscr>
+  <fileDscr ID="ExtractData">
+    <fileTxt>
+      <fileName>cps_00013.dat</fileName>
+      <fileCont>Microdata records</fileCont>
+      <fileStrc type="rectangular"/>
+      <fileType charset="ISO-8859-1">ISO-8859-1 data file</fileType>
+      <format>fixed length fields</format>
+      <filePlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</filePlac>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr><var ID="YEAR" files="ExtractData" name="YEAR" intrvl="contin" dcml="0">
+  <location StartPos="1" width="4" EndPos="4"/>
+  <labl>Survey year</labl>
+  <txt><![CDATA[YEAR reports the year in which the survey was conducted.  YEARP is repeated on person records.]]></txt>
+  <codInstr><![CDATA[
+  Codes
+  YEAR is a 4-digit numeric value.
+]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="SERIAL" files="ExtractData" name="SERIAL" intrvl="contin" dcml="0">
+  <location StartPos="5" width="5" EndPos="9"/>
+  <labl>Household serial number</labl>
+  <txt><![CDATA[SERIAL is an identifying number unique to each household in a given survey month and year.  All person records are assigned the same serial number as the household record they follow.  A combination of YEAR, MONTH, and SERIAL provides a within-sample unique identifier for every household in IPUMS-CPS; YEAR, MONTH, SERIAL, and PERNUM uniquely identify every person within a single sample.
+
+SERIAL is a new value generated for IPUMS-CPS and should not be confused with the household serial number created by the Census Bureau and included in the original CPS data.]]></txt>
+  <codInstr><![CDATA[
+  Codes
+  SERIAL is a 5-digit numeric variable.
+]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="MONTH" files="ExtractData" name="MONTH" intrvl="discrete" dcml="0">
+  <location StartPos="10" width="2" EndPos="11"/>
+  <labl>Month</labl>
+  <txt><![CDATA[MONTH indicates the calendar month of the CPS interview.]]></txt>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>January</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>February</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>March</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>April</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>May</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>June</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>July</labl>
+  </catgry>
+  <catgry>
+    <catValu>08</catValu>
+    <labl>August</labl>
+  </catgry>
+  <catgry>
+    <catValu>09</catValu>
+    <labl>September</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>October</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>November</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>December</labl>
+  </catgry>
+  <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="CPSID" files="ExtractData" name="CPSID" intrvl="contin" dcml="0">
+  <location StartPos="12" width="14" EndPos="25"/>
+  <labl>CPSID, household record</labl>
+  <txt><![CDATA[CPSID is an IPUMS-CPS defined variable that uniquely identifies households across CPS samples. The first six digits of CPSID index the four-digit year and two-digit month that the household was first in the CPS. CPSID allows users to link a household record across samples, based on the 4-8-4 rotation pattern, by assigning a unique CPSID value based on a combination of household identifiers. CPSID will only ever appear for a maximum of 8 times, which is the number of times a household may be observed in the CPS survey (as indexed by MISH). In some cases, a household will appear fewer than 8 times due to migration, mortality, non-response, and recording errors. CPSID Extensive documentation about the creation of CPSID is available elsewhere.
+
+CPSID may also be used to link ASEC respondents who are in the March Basic Monthly file to other months of CPS data. This linking is made possible by IPUMS through the creation of MARBASECIDP. Users should note that ASEC oversample households (as indicated by ASECOVERH) will always have a CPSID value of 0.
+
+Users may also want to see CPSIDP for more information about linking individuals across time using a person-specific version of CPSID.]]></txt>
+  <codInstr><![CDATA[
+  Codes
+  CPSID is a 14-digit numeric variable.
+]]></codInstr>
+  <concept vocab="IPUMS">Linking Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="ASECFLAG" files="ExtractData" name="ASECFLAG" intrvl="discrete" dcml="0">
+  <location StartPos="26" width="1" EndPos="26"/>
+  <labl>Flag for ASEC</labl>
+  <txt><![CDATA[ASECFLAG indicates whether the respondent is part of the ASEC or the March Basic. This variable is useful for users who wish to distinguish ASEC and March Basic files in their extracts. See further information about the ASEC versus the March Basic Monthly Files.]]></txt>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>ASEC</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>March Basic</labl>
+  </catgry>
+  <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="HFLAG" files="ExtractData" name="HFLAG" intrvl="discrete" dcml="0">
+  <location StartPos="27" width="1" EndPos="27"/>
+  <labl>Flag for the 3/8 file 2014</labl>
+  <txt><![CDATA[HFLAG indicates whether the respondent is part of the 3/8 redesign in the 2014 ASEC sample. This variable is useful for users who wish to analyze income and SPM variables in the 2014 ASEC sample. See further information about the 2014 survey redesign.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>5/8 file</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>3/8 file</labl>
+  </catgry>
+  <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="ASECWTH" files="ExtractData" name="ASECWTH" intrvl="contin" dcml="4">
+  <location StartPos="28" width="11" EndPos="38"/>
+  <labl>Annual Social and Economic Supplement Household weight</labl>
+  <txt><![CDATA[ASECWTH is a household-level weight that should be used to generate statistics about households in March Annual Social and Economic (ASEC) Supplement data. The CPS uses a complex stratified sampling scheme, and ASECWTH must be used to produce unbiased household-level statistics from the IPUMS-CPS ASEC data. For analyses of non-ASEC data, researchers should use HWTFINL. For individual-level analyses, researchers should use WTFINL, ASECWT, or EARNWT. 
+
+ASECWTH generally has the same value as WTSUPP for the household head or reference person. Vacant housing units and households that could not be interviewed due to residents' absence or refusal to participate have a value of zero in HWTSUPP; such sampled units were included in the public use CPS data beginning in 1988. 
+
+Estimates on the entire population are prepared by projecting forward the resident population from the last available census. These projections are derived by updating the demographic census data from a number of other data sources that account for death, births and net migration. About 3 years after every census (i.e. 2003 for the 2000 Census and 2013 for the 2010 Census), the Census Bureau updates its independent population control and provides a new weight for the relevant years.
+
+Two important points should be noted here. First, the lag between when the Census is conducted and when the CPS weights are updated is about 3 years. While the Census data are being processed, the CPS files are made available using the weighting scheme from the US Census prior to the latest Census. Second, once the files are updated, the old weights become obsolete and are replaced in the IPUMS data extract system. Published estimates from the lag years that use the old weights are not always updated. For example, 2010 poverty estimates were released in ASEC using the 2000 population controls. Once the 2010 population controls were made available, IPUMS-CPS replaced the ASEC 2010, 2011, and 2012 weights that are based on the 2000 population control with weights that are based on the 2010 population controls.
+
+IPUMS-CPS makes available only the most up-to-date weights. The old values are available here: Old SPM and Weights Values.]]></txt>
+  <codInstr><![CDATA[
+  Codes
+  ASECWTH is a 10-digit numeric variable with four implied decimals.  That is, 1234567890 should be interpreted as 123456.7890.  The IPUMS command files automatically divide ASECWTH by 10,000, so no further adjustment is needed.
+]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="HHINCOME" files="ExtractData" name="HHINCOME" intrvl="contin" dcml="0">
+  <location StartPos="39" width="8" EndPos="46"/>
+  <labl>Total household income</labl>
+  <txt><![CDATA[HHINCOME reports the total money income during the previous calendar year of all adult household members.  The amount should equal the sum of all household members' individual incomes as recorded in the IPUMS-CPS variable INCTOT.  The persons included were those present in the household at the time of the survey.  People who lived in the household during the previous year but were not still living there at the time of the survey are not included; household members who lived elsewhere during the previous year but had joined the household at the time of the survey are included.]]></txt>
+  <codInstr><![CDATA[
+  Codes
+  99999999 = N.I.U. (Not in Universe).
+]]></codInstr>
+  <concept vocab="IPUMS">Economic Characteristics Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="PERNUM" files="ExtractData" name="PERNUM" intrvl="contin" dcml="0">
+  <location StartPos="47" width="2" EndPos="48"/>
+  <labl>Person number in sample unit</labl>
+  <txt><![CDATA[PERNUM numbers all persons within each household consecutively (starting with "1") in the order in which they are listed in the original CPS data.  When combined with YEAR , MONTH, and SERIAL, PERNUM uniquely identifies each person within IPUMS-CPS samples, though not across IPUMS-CPS samples.]]></txt>
+  <codInstr><![CDATA[
+  Codes
+  PERNUM is a 2-digit numeric variable.
+]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="CPSIDV" files="ExtractData" name="CPSIDV" intrvl="contin" dcml="0">
+  <location StartPos="49" width="15" EndPos="63"/>
+  <labl>Validated Longitudinal Identifier</labl>
+  <txt><![CDATA[CPSIDV is an IPUMS CPS-created variable that uniquely identifies individuals across CPS samples. In addition to linking records across the CPS 4-8-4 rotation pattern, CPSIDV only makes links between those records whose SEX and RACE values do not change and whose AGE values change in expected ways over time. 
+
+CPSIDV is based on CPSIDP and so there are some structural similarities between them. The first six digits of CPSIDV are identical to CPSIDP - the four-digit year and two-digit month that the household was first in the CPS. Like CPSIDP, CPSIDV allows users to link a respondent appearing with a designated household roster line number (LINENO) across samples, based on the 4-8-4 rotation pattern. 
+
+Only records that link using CPSIDP that also have consistent race and sex values and age values that increase at least one but not more than two years over the course of the 16-month CPS rotation are linkable using CPSIDV. As a result, linkage rates using CPSIDV are slightly lower than those achieved using CPSIDP. However, linkages created with CPSIDV do not require the recommended post-linking verification steps recommended for use with CPSIDP links. Users should note that original, unharmonized values of age, sex, and race are used in the creation of CPSIDV. The procedure and validation criteria for creating CPSIDV are described in detail in A Holistic Approach to Validating Current Population Survey Panel Data. 
+
+CPSIDV may also be used to link ASEC respondents who are in the March Basic Monthly file to other months of CPS data. This linking is made possible by IPUMS through the creation of MARBASECIDP. 
+
+To get started using CPSIDV, users may want to sort their data file by CPSIDV and MISH to create a person-time file. 
+
+Users should take care when including the March Basic or ASEC as part of their linking. Respondents who are part of the ASEC oversample (as indicated by ASECOVERP) have a CPSIDV value of 0. For further information about the relationship between the March Basic and the ASEC, please see our additional documentation.]]></txt>
+  <codInstr><![CDATA[
+  Codes
+  CPSIDV is a 15-digit numeric variable.
+]]></codInstr>
+  <concept vocab="IPUMS">Linking Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="CPSIDP" files="ExtractData" name="CPSIDP" intrvl="contin" dcml="0">
+  <location StartPos="64" width="14" EndPos="77"/>
+  <labl>CPSID, person record</labl>
+  <txt><![CDATA[CPSIDP is an IPUMS CPS defined variable that uniquely identifies individuals across CPS samples. The first six digits of CPSIDP index the four-digit year and two-digit month that the household was first in the CPS. CPSIDP allows users to link a respondent appearing with a designated household roster line number (LINENO) across samples, based on the 4-8-4 rotation pattern, by assigning a unique CPSIDP value to this line number. CPSIDP will only ever appear for a maximum of 8 times, which is the number of times a household may be observed in the CPS survey (as indexed by MISH). In some cases, individuals will appear fewer than 8 times due to migration, mortality, non-response, and recording errors. Extensive documentation about the creation of CPSIDP is available elsewhere.
+
+Users should note that it is important to verify CPSIDP linkages with AGE, SEX, and RACE. In some cases CPSIDP will result in erroneous links, which are due to errors in the source data. Cases with the same CPSIDP value may also have inconsistent responses across samples due to errors on the part of the respondent or in recording the response. Ultimately, it is up to the individual researcher to determine the acceptability of the linkages made using CPSIDP. 
+
+CPSIDP may also be used to link ASEC respondents who are in the March Basic Monthly file to other months of CPS data. This linking is made possible by IPUMS through the creation of MARBASECIDP. 
+
+To get started using CPSIDP, users may want to sort their data file by CPSIDP and MISH to create a person-time file. 
+
+Users should take care when including the March Basic or ASEC as part of their linking. Respondents who are part of the ASEC oversample (as indicated by ASECOVERP) have a CPSIDP value of 0. For further information about the relationship between the March Basic and the ASEC, please see our additional documentation.]]></txt>
+  <codInstr><![CDATA[
+  Codes
+  CPSIDP is a 14-digit numeric variable.
+]]></codInstr>
+  <concept vocab="IPUMS">Linking Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="ASECWT" files="ExtractData" name="ASECWT" intrvl="contin" dcml="4">
+  <location StartPos="78" width="11" EndPos="88"/>
+  <labl>Annual Social and Economic Supplement Weight</labl>
+  <txt><![CDATA[ASECWT is a person-level weight that should be used in analyses of individual-level CPS supplement data. Since the CPS relies on a complex stratified sampling scheme, it is essential to use one of the provided weighting variables.
+
+Researchers should use WTFINL rather than ASECWT when they wish to conduct person-level analyses of non-ASEC data. EARNWT should be used for any analysis including a small number of person-level variables (EARNWEEK, HOURWAGE, PAIDHOUR, and UNION). Researchers should use ASECWTH for household-level analyses. ASECWTCVD is available for the 2020 ASEC to adjust for nonrandom nonresponse resulting from the COVID-19 pandemic.
+
+User Caution: For analyses that include the 2014 ASEC sample, please see the comparability tab.
+
+The ASEC CPS files include two groups of people who are not included in the production of published labor force statistics: (1) members of the armed services, and (2) members of the Hispanic oversample who were interviewed in months other than March. WTFINL and EARNWT assign these groups a value of 0. Both groups are assigned non-zero values in ASECWT.
+
+ASECWT is based on the inverse probability of selection into the sample and adjustments for the following factors: failure to obtain an interview; sampling within large sample units; the known distribution of the entire population according to age, sex, and race; over-sampling Hispanic persons; to give husbands and wives the same weight; and an additional step to provide consistency with labor force estimates from the basic survey. 
+
+Estimates on the entire population are prepared by projecting forward the resident population from the last available census. These projections are derived by updating the demographic census data from a number of other data sources that account for death, births and net migration. About 3 years after every census (i.e. 2003 for the 2000 Census and 2013 for the 2010 Census), the Census Bureau updates its independent population control and provides a new weight for the relevant years.
+
+Two important points should be noted here. First, the lag between when the Census is conducted and when the CPS weights are updated is about 3 years. While the Census data are being processed, the CPS files are made available using the weighting scheme from the US Census prior to the latest Census. Second, once the files are updated, the old weights become obsolete and are replaced in the IPUMS data extract system. Published estimates from the lag years that use the old weights are not always updated. For example, 2010 poverty estimates were released in ASEC using the 2000 population controls. Once the 2010 population controls were made available, IPUMS-CPS replaced the ASEC 2010, 2011, and 2012 weights that are based on the 2000 population control with weights that are based on the 2010 population controls. IPUMS-CPS makes available only the most up-to-date weights.]]></txt>
+  <codInstr><![CDATA[
+  Codes
+  ASECWT is a 10-digit numeric variable with four implied decimal places. That is, values of 0012345600 should be interpreted as 1,234.56.  The IPUMS command files automatically divide ASECWT by 10,000, so no further adjustment is needed.
+]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="ASECWTCVD" files="ExtractData" name="ASECWTCVD" intrvl="contin" dcml="0">
+  <location StartPos="89" width="10" EndPos="98"/>
+  <labl>ASEC weight adjusted for pandemic-related nonresponse.</labl>
+  <txt><![CDATA[ASECWTCVD is a person-level weight that should be used in analyses of individual-level ASEC data to account for nonrandom nonresponse during the COVID-19 pandemic. 
+
+In their working paper 
+  Coronavirus Infects Surveys Too: Survey Nonresponse Bias and the Coronavirus Pandemic
+, Jonathan Rothbaum and Adam Bee demonstrated that survey nonresponse was larger and more strongly associated with income in the 2020 ASEC than in previous years. As a result, 2020 income estimates are biased upward when using the existing survey weights. Using information from administrative records available for nonresponding as well as responding households, Rothbaum and Bee generate entropy balance weights to account for this nonrandom nonresponse. These weights are offered through IPUMS CPS in the variable ASECWTCVD. For more information on how this weight was generated, see Rothbaum and Bee, 2021. 
+
+ASECWTCVD is available from 2019-2021; we hope to incorporate this data from 2017 and 2018 in the future. ASECWT should be used for all other ASEC years. In other years, researchers should use WTFINL rather than ASECWT when they wish to conduct person-level analyses of non-ASEC data. EARNWT should be used for any analysis including a small number of person-level variables (EARNWEEK, HOURWAGE, PAIDHOUR, and UNION). Researchers should use ASECWTH for household-level analyses.]]></txt>
+  <codInstr><![CDATA[
+  Codes
+  ASECWTCVD is a 10-digit numeric variable with a floating decimal point.
+]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="EARNWEEK2" files="ExtractData" name="EARNWEEK2" intrvl="contin" dcml="2">
+  <location StartPos="99" width="8" EndPos="106"/>
+  <labl>Weekly earnings (rounded)</labl>
+  <txt><![CDATA[EARNWEEK2 reports how much the respondent usually earned per week at their current job, before deductions, rounded to preserve privacy. In April 2023, the Census Bureau began rounding weekly earnings as a privacy protection measure. EARNWEEK2 imposes these rounding criteria on pre-April 2023 data (including the 2023 ASEC) to provide users with comparable weekly earnings over time. See the Census Bureau's user note for more information on the new privacy protection measures. EARNWEEK reports un-rounded weekly earnings for pre-April 2023 data (including the 2023 ASEC) only.
+
+Note that rounding of earnings is part of a set of changes made to preserve respondent privacy that began to be phased in with the MISH group in January of 2023. April of 2023 is the first month in which this MISH group is asked earnings questions. Because of Census Bureau's phased approach to introducing these privacy protection measures, only MISH 4 groups in April 2023 - March of 2024 Basic Monthly samples are rounded and topcoded by the Census Bureau. In these months, IPUMS applies the new rounding rules to the MISH 8 group so that all records have comparable values within months. Users wishing to access a variable in which MISH 4 is rounded and MISH 8 remains unrounded should use UH_ERNWK_B5.
+
+Respondents reporting earnings between $0.01 and $7 have weekly earnings set at $4. Those who report $7.01-$1,199.00 have their weekly earnings values rounded to the nearest $2. Weekly earnings between $1,199.01 and $1,999.00 are rounded to the nearest $10. Finally, weekly earnings at or above $2,000.00 are rounded to the nearest $20. For further information about the changes to earnings data beginning in April 2023 and rounding examples, see the Census Bureau's user note.
+
+Interviewers asked directly about total weekly earnings and collected information about the usual number of hours worked per week and the hourly rate of pay at the current job. The figure given in EARNWEEK2 is the higher of the values derived from these two sources: 1) the respondent's answer to the question, "How much do you usually earn per week at this job before deductions?" or 2) for workers paid by the hour (and coded as "2" in PAIDHOUR), the reported number of hours the respondent usually worked at the job, multiplied by the hourly wage rate given in HOURWAGE, and rounded as described above.
+
+Amounts are expressed as they were reported to the interviewer, users must adjust for inflation using Consumer Price Index adjustment factors. Researchers should use the EARNWT weight with this variable.
+
+EARNWEEK2 is one of the Outgoing Rotation/Earner Study questions.]]></txt>
+  <codInstr><![CDATA[Codes999999.99 = N.I.U.
+
+		
+Top codes:1982-1988: 
+
+999 (Weekly earnings of $999 or more)
+1989-1997: 
+
+1923 (Weekly earnings of $1923 or more)
+1998-March 2023:
+
+ASEC samples only: 2885 (Weekly earnings of $2885 or more)
+
+non-ASEC samples: 2884.61
+April 2023-March 2024: 
+
+MISH 4: The maximum value of EARNWEEK2, excluding NIU values
+ 
+
+MISH 8: 2884.61
+April 2024-present
+
+The maximum value of EARNWEEK2 is calculated each month using the weighted average of the reported earnings of the top 3% of earners.
+]]></codInstr>
+  <concept vocab="IPUMS">Outgoing Rotation Groups (Earner Study) Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="UH_AGE_A5" files="ExtractData" name="UH_AGE_A5" intrvl="contin" dcml="0">
+  <location StartPos="107" width="2" EndPos="108"/>
+  <labl>Age of person, 2004-2024</labl>
+  <txt><![CDATA[Age of person - 2004-2024
+
+Unicon Corporation made the following notes about this variable:
+In 2002+, the Census dropped the topcoding of age to 80, and perturbed (scrambled) the value of age for certain records with ages 66-80 and less than 12.  They did not allow the revised ages to go outside those barriers; that is, no one whose age was 67 ended up with an age of less than 66, no one aged 9 ended up with an age greater than 11. 
+
+In these years, the top end is grouped at 80 then 85. Comparison to
+counts from earlier years indicate that 80 can be interpreted as '80-84' and 85 can be interpreted as '85+'. Census confirms these interpretations.]]></txt>
+  <codInstr><![CDATA[
+  Codes
+  UH_AGE_A5 is a 2-digit numeric variable.
+]]></codInstr>
+  <concept vocab="IPUMS">Demographics Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="UH_SEX_A1" files="ExtractData" name="UH_SEX_A1" intrvl="discrete" dcml="0">
+  <location StartPos="109" width="1" EndPos="109"/>
+  <labl>Sex, 1962-2024</labl>
+  <txt><![CDATA[Sex - 1962-2024
+
+Unicon Corporation made the following notes about this variable:
+In 1962, there is no variable dedicated to indicate only gender. Unicon has derived sex from the sexrace variable for this year.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>Male white</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Female white</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Male nonwhite</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Female nonwhite</labl>
+  </catgry>
+  <concept vocab="IPUMS">Demographics Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="RELATE" files="ExtractData" name="RELATE" intrvl="discrete" dcml="0">
+  <location StartPos="110" width="4" EndPos="113"/>
+  <labl>Relationship to household head</labl>
+  <txt><![CDATA[RELATE reports an individual's relationship to the head of household or householder.
+
+CPS interviewers collected detailed information about the precise relationships of all persons in the household in their initial listing of household members.  Unfortunately, they then simplified the detailed data (e.g., daughter-in-law, lodger's brother) by coding it into a few broad categories (e.g., "other relative of head," "nonrelative of head with own relatives in household") specified on the interview form.  Only the broad categories are preserved in the data.  The 4-digit codes for RELATE are consistent with the coding scheme used in IPUMS-USA census data.]]></txt>
+  <catgry>
+    <catValu>0101</catValu>
+    <labl>Head/householder</labl>
+  </catgry>
+  <catgry>
+    <catValu>0201</catValu>
+    <labl>Spouse</labl>
+  </catgry>
+  <catgry>
+    <catValu>0202</catValu>
+    <labl>Opposite sex spouse</labl>
+  </catgry>
+  <catgry>
+    <catValu>0203</catValu>
+    <labl>Same sex spouse</labl>
+  </catgry>
+  <catgry>
+    <catValu>0301</catValu>
+    <labl>Child</labl>
+  </catgry>
+  <catgry>
+    <catValu>0303</catValu>
+    <labl>Stepchild</labl>
+  </catgry>
+  <catgry>
+    <catValu>0501</catValu>
+    <labl>Parent</labl>
+  </catgry>
+  <catgry>
+    <catValu>0701</catValu>
+    <labl>Sibling</labl>
+  </catgry>
+  <catgry>
+    <catValu>0901</catValu>
+    <labl>Grandchild</labl>
+  </catgry>
+  <catgry>
+    <catValu>1001</catValu>
+    <labl>Other relatives, n.s.</labl>
+  </catgry>
+  <catgry>
+    <catValu>1113</catValu>
+    <labl>Partner/roommate</labl>
+  </catgry>
+  <catgry>
+    <catValu>1114</catValu>
+    <labl>Unmarried partner</labl>
+  </catgry>
+  <catgry>
+    <catValu>1116</catValu>
+    <labl>Opposite sex unmarried partner</labl>
+  </catgry>
+  <catgry>
+    <catValu>1117</catValu>
+    <labl>Same sex unmarried partner</labl>
+  </catgry>
+  <catgry>
+    <catValu>1115</catValu>
+    <labl>Housemate/roomate</labl>
+  </catgry>
+  <catgry>
+    <catValu>1241</catValu>
+    <labl>Roomer/boarder/lodger</labl>
+  </catgry>
+  <catgry>
+    <catValu>1242</catValu>
+    <labl>Foster children</labl>
+  </catgry>
+  <catgry>
+    <catValu>1260</catValu>
+    <labl>Other nonrelatives</labl>
+  </catgry>
+  <catgry>
+    <catValu>9900</catValu>
+    <labl>Relationship unknown</labl>
+  </catgry>
+  <catgry>
+    <catValu>9999</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <concept vocab="IPUMS">Demographics Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="AGE" files="ExtractData" name="AGE" intrvl="discrete" dcml="0">
+  <location StartPos="114" width="2" EndPos="115"/>
+  <labl>Age</labl>
+  <txt><![CDATA[Age gives each person's age at last birthday.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>Under 1 year</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>1</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>2</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>3</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>4</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>5</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>6</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>7</labl>
+  </catgry>
+  <catgry>
+    <catValu>08</catValu>
+    <labl>8</labl>
+  </catgry>
+  <catgry>
+    <catValu>09</catValu>
+    <labl>9</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>10</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>11</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>12</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>13</labl>
+  </catgry>
+  <catgry>
+    <catValu>14</catValu>
+    <labl>14</labl>
+  </catgry>
+  <catgry>
+    <catValu>15</catValu>
+    <labl>15</labl>
+  </catgry>
+  <catgry>
+    <catValu>16</catValu>
+    <labl>16</labl>
+  </catgry>
+  <catgry>
+    <catValu>17</catValu>
+    <labl>17</labl>
+  </catgry>
+  <catgry>
+    <catValu>18</catValu>
+    <labl>18</labl>
+  </catgry>
+  <catgry>
+    <catValu>19</catValu>
+    <labl>19</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>20</labl>
+  </catgry>
+  <catgry>
+    <catValu>21</catValu>
+    <labl>21</labl>
+  </catgry>
+  <catgry>
+    <catValu>22</catValu>
+    <labl>22</labl>
+  </catgry>
+  <catgry>
+    <catValu>23</catValu>
+    <labl>23</labl>
+  </catgry>
+  <catgry>
+    <catValu>24</catValu>
+    <labl>24</labl>
+  </catgry>
+  <catgry>
+    <catValu>25</catValu>
+    <labl>25</labl>
+  </catgry>
+  <catgry>
+    <catValu>26</catValu>
+    <labl>26</labl>
+  </catgry>
+  <catgry>
+    <catValu>27</catValu>
+    <labl>27</labl>
+  </catgry>
+  <catgry>
+    <catValu>28</catValu>
+    <labl>28</labl>
+  </catgry>
+  <catgry>
+    <catValu>29</catValu>
+    <labl>29</labl>
+  </catgry>
+  <catgry>
+    <catValu>30</catValu>
+    <labl>30</labl>
+  </catgry>
+  <catgry>
+    <catValu>31</catValu>
+    <labl>31</labl>
+  </catgry>
+  <catgry>
+    <catValu>32</catValu>
+    <labl>32</labl>
+  </catgry>
+  <catgry>
+    <catValu>33</catValu>
+    <labl>33</labl>
+  </catgry>
+  <catgry>
+    <catValu>34</catValu>
+    <labl>34</labl>
+  </catgry>
+  <catgry>
+    <catValu>35</catValu>
+    <labl>35</labl>
+  </catgry>
+  <catgry>
+    <catValu>36</catValu>
+    <labl>36</labl>
+  </catgry>
+  <catgry>
+    <catValu>37</catValu>
+    <labl>37</labl>
+  </catgry>
+  <catgry>
+    <catValu>38</catValu>
+    <labl>38</labl>
+  </catgry>
+  <catgry>
+    <catValu>39</catValu>
+    <labl>39</labl>
+  </catgry>
+  <catgry>
+    <catValu>40</catValu>
+    <labl>40</labl>
+  </catgry>
+  <catgry>
+    <catValu>41</catValu>
+    <labl>41</labl>
+  </catgry>
+  <catgry>
+    <catValu>42</catValu>
+    <labl>42</labl>
+  </catgry>
+  <catgry>
+    <catValu>43</catValu>
+    <labl>43</labl>
+  </catgry>
+  <catgry>
+    <catValu>44</catValu>
+    <labl>44</labl>
+  </catgry>
+  <catgry>
+    <catValu>45</catValu>
+    <labl>45</labl>
+  </catgry>
+  <catgry>
+    <catValu>46</catValu>
+    <labl>46</labl>
+  </catgry>
+  <catgry>
+    <catValu>47</catValu>
+    <labl>47</labl>
+  </catgry>
+  <catgry>
+    <catValu>48</catValu>
+    <labl>48</labl>
+  </catgry>
+  <catgry>
+    <catValu>49</catValu>
+    <labl>49</labl>
+  </catgry>
+  <catgry>
+    <catValu>50</catValu>
+    <labl>50</labl>
+  </catgry>
+  <catgry>
+    <catValu>51</catValu>
+    <labl>51</labl>
+  </catgry>
+  <catgry>
+    <catValu>52</catValu>
+    <labl>52</labl>
+  </catgry>
+  <catgry>
+    <catValu>53</catValu>
+    <labl>53</labl>
+  </catgry>
+  <catgry>
+    <catValu>54</catValu>
+    <labl>54</labl>
+  </catgry>
+  <catgry>
+    <catValu>55</catValu>
+    <labl>55</labl>
+  </catgry>
+  <catgry>
+    <catValu>56</catValu>
+    <labl>56</labl>
+  </catgry>
+  <catgry>
+    <catValu>57</catValu>
+    <labl>57</labl>
+  </catgry>
+  <catgry>
+    <catValu>58</catValu>
+    <labl>58</labl>
+  </catgry>
+  <catgry>
+    <catValu>59</catValu>
+    <labl>59</labl>
+  </catgry>
+  <catgry>
+    <catValu>60</catValu>
+    <labl>60</labl>
+  </catgry>
+  <catgry>
+    <catValu>61</catValu>
+    <labl>61</labl>
+  </catgry>
+  <catgry>
+    <catValu>62</catValu>
+    <labl>62</labl>
+  </catgry>
+  <catgry>
+    <catValu>63</catValu>
+    <labl>63</labl>
+  </catgry>
+  <catgry>
+    <catValu>64</catValu>
+    <labl>64</labl>
+  </catgry>
+  <catgry>
+    <catValu>65</catValu>
+    <labl>65</labl>
+  </catgry>
+  <catgry>
+    <catValu>66</catValu>
+    <labl>66</labl>
+  </catgry>
+  <catgry>
+    <catValu>67</catValu>
+    <labl>67</labl>
+  </catgry>
+  <catgry>
+    <catValu>68</catValu>
+    <labl>68</labl>
+  </catgry>
+  <catgry>
+    <catValu>69</catValu>
+    <labl>69</labl>
+  </catgry>
+  <catgry>
+    <catValu>70</catValu>
+    <labl>70</labl>
+  </catgry>
+  <catgry>
+    <catValu>71</catValu>
+    <labl>71</labl>
+  </catgry>
+  <catgry>
+    <catValu>72</catValu>
+    <labl>72</labl>
+  </catgry>
+  <catgry>
+    <catValu>73</catValu>
+    <labl>73</labl>
+  </catgry>
+  <catgry>
+    <catValu>74</catValu>
+    <labl>74</labl>
+  </catgry>
+  <catgry>
+    <catValu>75</catValu>
+    <labl>75</labl>
+  </catgry>
+  <catgry>
+    <catValu>76</catValu>
+    <labl>76</labl>
+  </catgry>
+  <catgry>
+    <catValu>77</catValu>
+    <labl>77</labl>
+  </catgry>
+  <catgry>
+    <catValu>78</catValu>
+    <labl>78</labl>
+  </catgry>
+  <catgry>
+    <catValu>79</catValu>
+    <labl>79</labl>
+  </catgry>
+  <catgry>
+    <catValu>80</catValu>
+    <labl>80</labl>
+  </catgry>
+  <catgry>
+    <catValu>81</catValu>
+    <labl>81</labl>
+  </catgry>
+  <catgry>
+    <catValu>82</catValu>
+    <labl>82</labl>
+  </catgry>
+  <catgry>
+    <catValu>83</catValu>
+    <labl>83</labl>
+  </catgry>
+  <catgry>
+    <catValu>84</catValu>
+    <labl>84</labl>
+  </catgry>
+  <catgry>
+    <catValu>85</catValu>
+    <labl>85</labl>
+  </catgry>
+  <catgry>
+    <catValu>86</catValu>
+    <labl>86</labl>
+  </catgry>
+  <catgry>
+    <catValu>87</catValu>
+    <labl>87</labl>
+  </catgry>
+  <catgry>
+    <catValu>88</catValu>
+    <labl>88</labl>
+  </catgry>
+  <catgry>
+    <catValu>89</catValu>
+    <labl>89</labl>
+  </catgry>
+  <catgry>
+    <catValu>90</catValu>
+    <labl>90 (90+, 1988-2002)</labl>
+  </catgry>
+  <catgry>
+    <catValu>91</catValu>
+    <labl>91</labl>
+  </catgry>
+  <catgry>
+    <catValu>92</catValu>
+    <labl>92</labl>
+  </catgry>
+  <catgry>
+    <catValu>93</catValu>
+    <labl>93</labl>
+  </catgry>
+  <catgry>
+    <catValu>94</catValu>
+    <labl>94</labl>
+  </catgry>
+  <catgry>
+    <catValu>95</catValu>
+    <labl>95</labl>
+  </catgry>
+  <catgry>
+    <catValu>96</catValu>
+    <labl>96</labl>
+  </catgry>
+  <catgry>
+    <catValu>97</catValu>
+    <labl>97</labl>
+  </catgry>
+  <catgry>
+    <catValu>98</catValu>
+    <labl>98</labl>
+  </catgry>
+  <catgry>
+    <catValu>99</catValu>
+    <labl>99+</labl>
+  </catgry>
+  <concept vocab="IPUMS">Demographics Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="SEX" files="ExtractData" name="SEX" intrvl="discrete" dcml="0">
+  <location StartPos="116" width="1" EndPos="116"/>
+  <labl>Sex</labl>
+  <txt><![CDATA[SEX gives each person's sex.]]></txt>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Male</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Female</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <concept vocab="IPUMS">Demographics Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="RACE" files="ExtractData" name="RACE" intrvl="discrete" dcml="0">
+  <location StartPos="117" width="3" EndPos="119"/>
+  <labl>Race</labl>
+  <txt><![CDATA[Racial categories in the CPS have been more consistent than racial categories in the census.  Up through 2002, the number of race categories ranged from 3 (white, negro, and other) to 5 (white, black, American Indian/Eskimo/Aleut, Asian or Pacific Islander, and other).   Beginning in 2003, respondents could report more than one race, and the number of codes rose to 21, and then up to 26 codes in 2013.]]></txt>
+  <catgry>
+    <catValu>100</catValu>
+    <labl>White</labl>
+  </catgry>
+  <catgry>
+    <catValu>200</catValu>
+    <labl>Black</labl>
+  </catgry>
+  <catgry>
+    <catValu>300</catValu>
+    <labl>American Indian/Aleut/Eskimo</labl>
+  </catgry>
+  <catgry>
+    <catValu>650</catValu>
+    <labl>Asian or Pacific Islander</labl>
+  </catgry>
+  <catgry>
+    <catValu>651</catValu>
+    <labl>Asian only</labl>
+  </catgry>
+  <catgry>
+    <catValu>652</catValu>
+    <labl>Hawaiian/Pacific Islander only</labl>
+  </catgry>
+  <catgry>
+    <catValu>700</catValu>
+    <labl>Other (single) race, n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>801</catValu>
+    <labl>White-Black</labl>
+  </catgry>
+  <catgry>
+    <catValu>802</catValu>
+    <labl>White-American Indian</labl>
+  </catgry>
+  <catgry>
+    <catValu>803</catValu>
+    <labl>White-Asian</labl>
+  </catgry>
+  <catgry>
+    <catValu>804</catValu>
+    <labl>White-Hawaiian/Pacific Islander</labl>
+  </catgry>
+  <catgry>
+    <catValu>805</catValu>
+    <labl>Black-American Indian</labl>
+  </catgry>
+  <catgry>
+    <catValu>806</catValu>
+    <labl>Black-Asian</labl>
+  </catgry>
+  <catgry>
+    <catValu>807</catValu>
+    <labl>Black-Hawaiian/Pacific Islander</labl>
+  </catgry>
+  <catgry>
+    <catValu>808</catValu>
+    <labl>American Indian-Asian</labl>
+  </catgry>
+  <catgry>
+    <catValu>809</catValu>
+    <labl>Asian-Hawaiian/Pacific Islander</labl>
+  </catgry>
+  <catgry>
+    <catValu>810</catValu>
+    <labl>White-Black-American Indian</labl>
+  </catgry>
+  <catgry>
+    <catValu>811</catValu>
+    <labl>White-Black-Asian</labl>
+  </catgry>
+  <catgry>
+    <catValu>812</catValu>
+    <labl>White-American Indian-Asian</labl>
+  </catgry>
+  <catgry>
+    <catValu>813</catValu>
+    <labl>White-Asian-Hawaiian/Pacific Islander</labl>
+  </catgry>
+  <catgry>
+    <catValu>814</catValu>
+    <labl>White-Black-American Indian-Asian</labl>
+  </catgry>
+  <catgry>
+    <catValu>815</catValu>
+    <labl>American Indian-Hawaiian/Pacific Islander</labl>
+  </catgry>
+  <catgry>
+    <catValu>816</catValu>
+    <labl>White-Black--Hawaiian/Pacific Islander</labl>
+  </catgry>
+  <catgry>
+    <catValu>817</catValu>
+    <labl>White-American Indian-Hawaiian/Pacific Islander</labl>
+  </catgry>
+  <catgry>
+    <catValu>818</catValu>
+    <labl>Black-American Indian-Asian</labl>
+  </catgry>
+  <catgry>
+    <catValu>819</catValu>
+    <labl>White-American Indian-Asian-Hawaiian/Pacific Islander</labl>
+  </catgry>
+  <catgry>
+    <catValu>820</catValu>
+    <labl>Two or three races, unspecified</labl>
+  </catgry>
+  <catgry>
+    <catValu>830</catValu>
+    <labl>Four or five races, unspecified</labl>
+  </catgry>
+  <catgry>
+    <catValu>999</catValu>
+    <labl>Blank</labl>
+  </catgry>
+  <concept vocab="IPUMS">Demographics Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="QAGE" files="ExtractData" name="QAGE" intrvl="discrete" dcml="0">
+  <location StartPos="120" width="2" EndPos="121"/>
+  <labl>Data quality flag for AGE</labl>
+  <txt><![CDATA[Data quality flag for AGE.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>No change</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>Blank to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>Value to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>Allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>Value to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>Blank to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>Don't know to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>Refused to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>08</catValu>
+    <labl>Blank to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>09</catValu>
+    <labl>Don't know to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Refused to longitudinal value</labl>
+  </catgry>
+  <concept vocab="IPUMS">Data Quality Flags Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+  <notes>This variable functions as a data quality flag.</notes>
+</var><var ID="QRELATE" files="ExtractData" name="QRELATE" intrvl="discrete" dcml="0">
+  <location StartPos="122" width="1" EndPos="122"/>
+  <labl>Data quality flag for RELATE</labl>
+  <txt><![CDATA[First data quality flag for RELATE. Also see  QRELATE2.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>No change</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Blank to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Value to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Value to value - no error</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Don't know to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Refused to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Allocated</labl>
+  </catgry>
+  <concept vocab="IPUMS">Data Quality Flags Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+  <notes>This variable functions as a data quality flag.</notes>
+</var><var ID="QSEX" files="ExtractData" name="QSEX" intrvl="discrete" dcml="0">
+  <location StartPos="123" width="2" EndPos="124"/>
+  <labl>Data quality flag for SEX</labl>
+  <txt><![CDATA[Data quality flag for SEX. In some Basic Monthly samples between 1976 and 1988, there are several household head/wife of head couples that are of the same sex in the input data. In these instances, IPUMS allocates SEX such that heads of household are male and wives of household heads are female, as the CPS allocates either sex or marital status and relationship to head variables in later years to disallow same-sex couples in the data. These records have a QSEX value of 12 and amount to only 84 cases.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>No change</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>Blank to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>Value to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>Allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>Don't know to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>Refused to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>Blank to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>Don't know to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>08</catValu>
+    <labl>Refused to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>09</catValu>
+    <labl>Blank to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Don't know to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>Refused to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>Allocated by IPUMS</labl>
+  </catgry>
+  <concept vocab="IPUMS">Data Quality Flags Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+  <notes>This variable functions as a data quality flag.</notes>
+</var><var ID="QRACE" files="ExtractData" name="QRACE" intrvl="discrete" dcml="0">
+  <location StartPos="125" width="2" EndPos="126"/>
+  <labl>Data quality flag for RACE</labl>
+  <txt><![CDATA[Data quality flag for RACE.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>No change / not allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>Allocated-no method specified</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Value to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>Blank to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>Don't know to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>Refused to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>Value to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>21</catValu>
+    <labl>Blank to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>22</catValu>
+    <labl>Don't know to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>23</catValu>
+    <labl>Refused to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>30</catValu>
+    <labl>Value to allocated value long</labl>
+  </catgry>
+  <catgry>
+    <catValu>31</catValu>
+    <labl>Blank to allocated value long</labl>
+  </catgry>
+  <catgry>
+    <catValu>32</catValu>
+    <labl>Don't know to allocated value long</labl>
+  </catgry>
+  <catgry>
+    <catValu>33</catValu>
+    <labl>Refused to allocated value long</labl>
+  </catgry>
+  <catgry>
+    <catValu>40</catValu>
+    <labl>Value to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>41</catValu>
+    <labl>Blank to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>42</catValu>
+    <labl>Don't know to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>43</catValu>
+    <labl>Refused to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>50</catValu>
+    <labl>Value to blank</labl>
+  </catgry>
+  <catgry>
+    <catValu>52</catValu>
+    <labl>Don't know to blank</labl>
+  </catgry>
+  <catgry>
+    <catValu>53</catValu>
+    <labl>Refused to blank</labl>
+  </catgry>
+  <concept vocab="IPUMS">Data Quality Flags Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+  <notes>This variable functions as a data quality flag.</notes>
+</var><var ID="NCHILD" files="ExtractData" name="NCHILD" intrvl="discrete" dcml="0">
+  <location StartPos="127" width="1" EndPos="127"/>
+  <labl>Number of own children in household</labl>
+  <txt><![CDATA[NCHILD counts the number of own children (of any age or marital status) residing with each individual. NCHILD includes step-children and adopted children as well as biological children. Persons with no children present are coded 0.
+
+Note that NCHILD is an IPUMS-derived variable using IPUMS-derived family interrelationships. Thus NCHILD may differ from any family information that comes from just the Census family definitions. See for example FTYPE, FAMKIND, and FAMREL for more on Census family units.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>0 children present</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>1 child present</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>2</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>3</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>4</labl>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>5</labl>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>6</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>7</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>8</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>9+</labl>
+  </catgry>
+  <concept vocab="IPUMS">Family Interrelationships Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="ELDCH" files="ExtractData" name="ELDCH" intrvl="discrete" dcml="0">
+  <location StartPos="128" width="2" EndPos="129"/>
+  <labl>Age of eldest own child in household</labl>
+  <txt><![CDATA[ELDCH reports the age of the eldest own child (if any) residing with each individual, regardless of the child's age or marital status. ELDCH includes step-children and adopted children as well as biological children. The highest legitimate age for ELDCH is 98. Persons with no children present are considered "Not in Universe," and are coded 99.
+
+Note that ELDCH is an IPUMS-derived variable using IPUMS-derived family interrelationships. Thus ELDCH may differ from any family information that comes from just the Census family definitions. See for example FTYPE, FAMKIND, and FAMREL for more on Census family units.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>Less than 1 year old</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>1</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>2</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>3</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>4</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>5</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>6</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>7</labl>
+  </catgry>
+  <catgry>
+    <catValu>08</catValu>
+    <labl>8</labl>
+  </catgry>
+  <catgry>
+    <catValu>09</catValu>
+    <labl>9</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>10</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>11</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>12</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>13</labl>
+  </catgry>
+  <catgry>
+    <catValu>14</catValu>
+    <labl>14</labl>
+  </catgry>
+  <catgry>
+    <catValu>15</catValu>
+    <labl>15</labl>
+  </catgry>
+  <catgry>
+    <catValu>16</catValu>
+    <labl>16</labl>
+  </catgry>
+  <catgry>
+    <catValu>17</catValu>
+    <labl>17</labl>
+  </catgry>
+  <catgry>
+    <catValu>18</catValu>
+    <labl>18</labl>
+  </catgry>
+  <catgry>
+    <catValu>19</catValu>
+    <labl>19</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>20</labl>
+  </catgry>
+  <catgry>
+    <catValu>21</catValu>
+    <labl>21</labl>
+  </catgry>
+  <catgry>
+    <catValu>22</catValu>
+    <labl>22</labl>
+  </catgry>
+  <catgry>
+    <catValu>23</catValu>
+    <labl>23</labl>
+  </catgry>
+  <catgry>
+    <catValu>24</catValu>
+    <labl>24</labl>
+  </catgry>
+  <catgry>
+    <catValu>25</catValu>
+    <labl>25</labl>
+  </catgry>
+  <catgry>
+    <catValu>26</catValu>
+    <labl>26</labl>
+  </catgry>
+  <catgry>
+    <catValu>27</catValu>
+    <labl>27</labl>
+  </catgry>
+  <catgry>
+    <catValu>28</catValu>
+    <labl>28</labl>
+  </catgry>
+  <catgry>
+    <catValu>29</catValu>
+    <labl>29</labl>
+  </catgry>
+  <catgry>
+    <catValu>30</catValu>
+    <labl>30</labl>
+  </catgry>
+  <catgry>
+    <catValu>31</catValu>
+    <labl>31</labl>
+  </catgry>
+  <catgry>
+    <catValu>32</catValu>
+    <labl>32</labl>
+  </catgry>
+  <catgry>
+    <catValu>33</catValu>
+    <labl>33</labl>
+  </catgry>
+  <catgry>
+    <catValu>34</catValu>
+    <labl>34</labl>
+  </catgry>
+  <catgry>
+    <catValu>35</catValu>
+    <labl>35</labl>
+  </catgry>
+  <catgry>
+    <catValu>36</catValu>
+    <labl>36</labl>
+  </catgry>
+  <catgry>
+    <catValu>37</catValu>
+    <labl>37</labl>
+  </catgry>
+  <catgry>
+    <catValu>38</catValu>
+    <labl>38</labl>
+  </catgry>
+  <catgry>
+    <catValu>39</catValu>
+    <labl>39</labl>
+  </catgry>
+  <catgry>
+    <catValu>40</catValu>
+    <labl>40</labl>
+  </catgry>
+  <catgry>
+    <catValu>41</catValu>
+    <labl>41</labl>
+  </catgry>
+  <catgry>
+    <catValu>42</catValu>
+    <labl>42</labl>
+  </catgry>
+  <catgry>
+    <catValu>43</catValu>
+    <labl>43</labl>
+  </catgry>
+  <catgry>
+    <catValu>44</catValu>
+    <labl>44</labl>
+  </catgry>
+  <catgry>
+    <catValu>45</catValu>
+    <labl>45</labl>
+  </catgry>
+  <catgry>
+    <catValu>46</catValu>
+    <labl>46</labl>
+  </catgry>
+  <catgry>
+    <catValu>47</catValu>
+    <labl>47</labl>
+  </catgry>
+  <catgry>
+    <catValu>48</catValu>
+    <labl>48</labl>
+  </catgry>
+  <catgry>
+    <catValu>49</catValu>
+    <labl>49</labl>
+  </catgry>
+  <catgry>
+    <catValu>50</catValu>
+    <labl>50</labl>
+  </catgry>
+  <catgry>
+    <catValu>51</catValu>
+    <labl>51</labl>
+  </catgry>
+  <catgry>
+    <catValu>52</catValu>
+    <labl>52</labl>
+  </catgry>
+  <catgry>
+    <catValu>53</catValu>
+    <labl>53</labl>
+  </catgry>
+  <catgry>
+    <catValu>54</catValu>
+    <labl>54</labl>
+  </catgry>
+  <catgry>
+    <catValu>55</catValu>
+    <labl>55</labl>
+  </catgry>
+  <catgry>
+    <catValu>56</catValu>
+    <labl>56</labl>
+  </catgry>
+  <catgry>
+    <catValu>57</catValu>
+    <labl>57</labl>
+  </catgry>
+  <catgry>
+    <catValu>58</catValu>
+    <labl>58</labl>
+  </catgry>
+  <catgry>
+    <catValu>59</catValu>
+    <labl>59</labl>
+  </catgry>
+  <catgry>
+    <catValu>60</catValu>
+    <labl>60</labl>
+  </catgry>
+  <catgry>
+    <catValu>61</catValu>
+    <labl>61</labl>
+  </catgry>
+  <catgry>
+    <catValu>62</catValu>
+    <labl>62</labl>
+  </catgry>
+  <catgry>
+    <catValu>63</catValu>
+    <labl>63</labl>
+  </catgry>
+  <catgry>
+    <catValu>64</catValu>
+    <labl>64</labl>
+  </catgry>
+  <catgry>
+    <catValu>65</catValu>
+    <labl>65</labl>
+  </catgry>
+  <catgry>
+    <catValu>66</catValu>
+    <labl>66</labl>
+  </catgry>
+  <catgry>
+    <catValu>67</catValu>
+    <labl>67</labl>
+  </catgry>
+  <catgry>
+    <catValu>68</catValu>
+    <labl>68</labl>
+  </catgry>
+  <catgry>
+    <catValu>69</catValu>
+    <labl>69</labl>
+  </catgry>
+  <catgry>
+    <catValu>70</catValu>
+    <labl>70</labl>
+  </catgry>
+  <catgry>
+    <catValu>71</catValu>
+    <labl>71</labl>
+  </catgry>
+  <catgry>
+    <catValu>72</catValu>
+    <labl>72</labl>
+  </catgry>
+  <catgry>
+    <catValu>73</catValu>
+    <labl>73</labl>
+  </catgry>
+  <catgry>
+    <catValu>74</catValu>
+    <labl>74</labl>
+  </catgry>
+  <catgry>
+    <catValu>75</catValu>
+    <labl>75</labl>
+  </catgry>
+  <catgry>
+    <catValu>76</catValu>
+    <labl>76</labl>
+  </catgry>
+  <catgry>
+    <catValu>77</catValu>
+    <labl>77</labl>
+  </catgry>
+  <catgry>
+    <catValu>78</catValu>
+    <labl>78</labl>
+  </catgry>
+  <catgry>
+    <catValu>79</catValu>
+    <labl>79</labl>
+  </catgry>
+  <catgry>
+    <catValu>80</catValu>
+    <labl>80</labl>
+  </catgry>
+  <catgry>
+    <catValu>81</catValu>
+    <labl>81</labl>
+  </catgry>
+  <catgry>
+    <catValu>82</catValu>
+    <labl>82</labl>
+  </catgry>
+  <catgry>
+    <catValu>83</catValu>
+    <labl>83</labl>
+  </catgry>
+  <catgry>
+    <catValu>84</catValu>
+    <labl>84</labl>
+  </catgry>
+  <catgry>
+    <catValu>85</catValu>
+    <labl>85</labl>
+  </catgry>
+  <catgry>
+    <catValu>86</catValu>
+    <labl>86</labl>
+  </catgry>
+  <catgry>
+    <catValu>87</catValu>
+    <labl>87</labl>
+  </catgry>
+  <catgry>
+    <catValu>88</catValu>
+    <labl>88</labl>
+  </catgry>
+  <catgry>
+    <catValu>89</catValu>
+    <labl>89</labl>
+  </catgry>
+  <catgry>
+    <catValu>90</catValu>
+    <labl>90</labl>
+  </catgry>
+  <catgry>
+    <catValu>91</catValu>
+    <labl>91</labl>
+  </catgry>
+  <catgry>
+    <catValu>92</catValu>
+    <labl>92</labl>
+  </catgry>
+  <catgry>
+    <catValu>93</catValu>
+    <labl>93</labl>
+  </catgry>
+  <catgry>
+    <catValu>94</catValu>
+    <labl>94</labl>
+  </catgry>
+  <catgry>
+    <catValu>95</catValu>
+    <labl>95</labl>
+  </catgry>
+  <catgry>
+    <catValu>96</catValu>
+    <labl>96</labl>
+  </catgry>
+  <catgry>
+    <catValu>97</catValu>
+    <labl>97</labl>
+  </catgry>
+  <catgry>
+    <catValu>98</catValu>
+    <labl>98</labl>
+  </catgry>
+  <catgry>
+    <catValu>99</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <concept vocab="IPUMS">Family Interrelationships Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="YNGCH" files="ExtractData" name="YNGCH" intrvl="discrete" dcml="0">
+  <location StartPos="130" width="2" EndPos="131"/>
+  <labl>Age of youngest own child in household</labl>
+  <txt><![CDATA[YNGCH reports the age of the youngest own child (if any) residing with each individual, regardless of the child's age or marital status. The highest legitimate age for YNGCH is 98. YNGCH includes step-children and adopted children as well as biological children. Persons with no own children present are coded 99.
+
+Note that YNGCH is an IPUMS-derived variable using IPUMS-derived family interrelationships. Thus YNGCH may differ from any family information that comes from just the Census family definitions. See for example FTYPE, FAMKIND, and FAMREL for more on Census family units.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>Less than 1 year old</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>1</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>2</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>3</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>4</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>5</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>6</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>7</labl>
+  </catgry>
+  <catgry>
+    <catValu>08</catValu>
+    <labl>8</labl>
+  </catgry>
+  <catgry>
+    <catValu>09</catValu>
+    <labl>9</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>10</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>11</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>12</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>13</labl>
+  </catgry>
+  <catgry>
+    <catValu>14</catValu>
+    <labl>14</labl>
+  </catgry>
+  <catgry>
+    <catValu>15</catValu>
+    <labl>15</labl>
+  </catgry>
+  <catgry>
+    <catValu>16</catValu>
+    <labl>16</labl>
+  </catgry>
+  <catgry>
+    <catValu>17</catValu>
+    <labl>17</labl>
+  </catgry>
+  <catgry>
+    <catValu>18</catValu>
+    <labl>18</labl>
+  </catgry>
+  <catgry>
+    <catValu>19</catValu>
+    <labl>19</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>20</labl>
+  </catgry>
+  <catgry>
+    <catValu>21</catValu>
+    <labl>21</labl>
+  </catgry>
+  <catgry>
+    <catValu>22</catValu>
+    <labl>22</labl>
+  </catgry>
+  <catgry>
+    <catValu>23</catValu>
+    <labl>23</labl>
+  </catgry>
+  <catgry>
+    <catValu>24</catValu>
+    <labl>24</labl>
+  </catgry>
+  <catgry>
+    <catValu>25</catValu>
+    <labl>25</labl>
+  </catgry>
+  <catgry>
+    <catValu>26</catValu>
+    <labl>26</labl>
+  </catgry>
+  <catgry>
+    <catValu>27</catValu>
+    <labl>27</labl>
+  </catgry>
+  <catgry>
+    <catValu>28</catValu>
+    <labl>28</labl>
+  </catgry>
+  <catgry>
+    <catValu>29</catValu>
+    <labl>29</labl>
+  </catgry>
+  <catgry>
+    <catValu>30</catValu>
+    <labl>30</labl>
+  </catgry>
+  <catgry>
+    <catValu>31</catValu>
+    <labl>31</labl>
+  </catgry>
+  <catgry>
+    <catValu>32</catValu>
+    <labl>32</labl>
+  </catgry>
+  <catgry>
+    <catValu>33</catValu>
+    <labl>33</labl>
+  </catgry>
+  <catgry>
+    <catValu>34</catValu>
+    <labl>34</labl>
+  </catgry>
+  <catgry>
+    <catValu>35</catValu>
+    <labl>35</labl>
+  </catgry>
+  <catgry>
+    <catValu>36</catValu>
+    <labl>36</labl>
+  </catgry>
+  <catgry>
+    <catValu>37</catValu>
+    <labl>37</labl>
+  </catgry>
+  <catgry>
+    <catValu>38</catValu>
+    <labl>38</labl>
+  </catgry>
+  <catgry>
+    <catValu>39</catValu>
+    <labl>39</labl>
+  </catgry>
+  <catgry>
+    <catValu>40</catValu>
+    <labl>40</labl>
+  </catgry>
+  <catgry>
+    <catValu>41</catValu>
+    <labl>41</labl>
+  </catgry>
+  <catgry>
+    <catValu>42</catValu>
+    <labl>42</labl>
+  </catgry>
+  <catgry>
+    <catValu>43</catValu>
+    <labl>43</labl>
+  </catgry>
+  <catgry>
+    <catValu>44</catValu>
+    <labl>44</labl>
+  </catgry>
+  <catgry>
+    <catValu>45</catValu>
+    <labl>45</labl>
+  </catgry>
+  <catgry>
+    <catValu>46</catValu>
+    <labl>46</labl>
+  </catgry>
+  <catgry>
+    <catValu>47</catValu>
+    <labl>47</labl>
+  </catgry>
+  <catgry>
+    <catValu>48</catValu>
+    <labl>48</labl>
+  </catgry>
+  <catgry>
+    <catValu>49</catValu>
+    <labl>49</labl>
+  </catgry>
+  <catgry>
+    <catValu>50</catValu>
+    <labl>50</labl>
+  </catgry>
+  <catgry>
+    <catValu>51</catValu>
+    <labl>51</labl>
+  </catgry>
+  <catgry>
+    <catValu>52</catValu>
+    <labl>52</labl>
+  </catgry>
+  <catgry>
+    <catValu>53</catValu>
+    <labl>53</labl>
+  </catgry>
+  <catgry>
+    <catValu>54</catValu>
+    <labl>54</labl>
+  </catgry>
+  <catgry>
+    <catValu>55</catValu>
+    <labl>55</labl>
+  </catgry>
+  <catgry>
+    <catValu>56</catValu>
+    <labl>56</labl>
+  </catgry>
+  <catgry>
+    <catValu>57</catValu>
+    <labl>57</labl>
+  </catgry>
+  <catgry>
+    <catValu>58</catValu>
+    <labl>58</labl>
+  </catgry>
+  <catgry>
+    <catValu>59</catValu>
+    <labl>59</labl>
+  </catgry>
+  <catgry>
+    <catValu>60</catValu>
+    <labl>60</labl>
+  </catgry>
+  <catgry>
+    <catValu>61</catValu>
+    <labl>61</labl>
+  </catgry>
+  <catgry>
+    <catValu>62</catValu>
+    <labl>62</labl>
+  </catgry>
+  <catgry>
+    <catValu>63</catValu>
+    <labl>63</labl>
+  </catgry>
+  <catgry>
+    <catValu>64</catValu>
+    <labl>64</labl>
+  </catgry>
+  <catgry>
+    <catValu>65</catValu>
+    <labl>65</labl>
+  </catgry>
+  <catgry>
+    <catValu>66</catValu>
+    <labl>66</labl>
+  </catgry>
+  <catgry>
+    <catValu>67</catValu>
+    <labl>67</labl>
+  </catgry>
+  <catgry>
+    <catValu>68</catValu>
+    <labl>68</labl>
+  </catgry>
+  <catgry>
+    <catValu>69</catValu>
+    <labl>69</labl>
+  </catgry>
+  <catgry>
+    <catValu>70</catValu>
+    <labl>70</labl>
+  </catgry>
+  <catgry>
+    <catValu>71</catValu>
+    <labl>71</labl>
+  </catgry>
+  <catgry>
+    <catValu>72</catValu>
+    <labl>72</labl>
+  </catgry>
+  <catgry>
+    <catValu>73</catValu>
+    <labl>73</labl>
+  </catgry>
+  <catgry>
+    <catValu>74</catValu>
+    <labl>74</labl>
+  </catgry>
+  <catgry>
+    <catValu>75</catValu>
+    <labl>75</labl>
+  </catgry>
+  <catgry>
+    <catValu>76</catValu>
+    <labl>76</labl>
+  </catgry>
+  <catgry>
+    <catValu>77</catValu>
+    <labl>77</labl>
+  </catgry>
+  <catgry>
+    <catValu>78</catValu>
+    <labl>78</labl>
+  </catgry>
+  <catgry>
+    <catValu>79</catValu>
+    <labl>79</labl>
+  </catgry>
+  <catgry>
+    <catValu>80</catValu>
+    <labl>80</labl>
+  </catgry>
+  <catgry>
+    <catValu>81</catValu>
+    <labl>81</labl>
+  </catgry>
+  <catgry>
+    <catValu>82</catValu>
+    <labl>82</labl>
+  </catgry>
+  <catgry>
+    <catValu>83</catValu>
+    <labl>83</labl>
+  </catgry>
+  <catgry>
+    <catValu>84</catValu>
+    <labl>84</labl>
+  </catgry>
+  <catgry>
+    <catValu>85</catValu>
+    <labl>85</labl>
+  </catgry>
+  <catgry>
+    <catValu>86</catValu>
+    <labl>86</labl>
+  </catgry>
+  <catgry>
+    <catValu>87</catValu>
+    <labl>87</labl>
+  </catgry>
+  <catgry>
+    <catValu>88</catValu>
+    <labl>88</labl>
+  </catgry>
+  <catgry>
+    <catValu>89</catValu>
+    <labl>89</labl>
+  </catgry>
+  <catgry>
+    <catValu>90</catValu>
+    <labl>90</labl>
+  </catgry>
+  <catgry>
+    <catValu>91</catValu>
+    <labl>91</labl>
+  </catgry>
+  <catgry>
+    <catValu>92</catValu>
+    <labl>92</labl>
+  </catgry>
+  <catgry>
+    <catValu>93</catValu>
+    <labl>93</labl>
+  </catgry>
+  <catgry>
+    <catValu>94</catValu>
+    <labl>94</labl>
+  </catgry>
+  <catgry>
+    <catValu>95</catValu>
+    <labl>95</labl>
+  </catgry>
+  <catgry>
+    <catValu>96</catValu>
+    <labl>96</labl>
+  </catgry>
+  <catgry>
+    <catValu>97</catValu>
+    <labl>97</labl>
+  </catgry>
+  <catgry>
+    <catValu>98</catValu>
+    <labl>98</labl>
+  </catgry>
+  <catgry>
+    <catValu>99</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <concept vocab="IPUMS">Family Interrelationships Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="HISPAN" files="ExtractData" name="HISPAN" intrvl="discrete" dcml="0">
+  <location StartPos="132" width="3" EndPos="134"/>
+  <labl>Hispanic origin</labl>
+  <txt><![CDATA[HISPAN identifies and classifies persons of Hispanic/Spanish/Latino origin.  Origin is ancestry, lineage, heritage, national group, or country of birth.   
+
+Prior to 2003, information was collected by asking, "What is the origin or descent of each person in this household?" and asking the respondent to select the appropriate category from a limited number of choices on a flashcard (including "another group not listed.")   The choices included five to eight choices that would be classified as Hispanic, "Negro" and "Black," and a small number of European ancestry groups such as "German."  
+
+The primary intention of the question was to identify Hispanic respondents, rather than origin or descent for the general population.  Beginning in 1976, the original CPS data preserved detail for only the Hispanic responses, with all others answers lumped together as "another group not listed" (relabeled "Not Hispanic" in IPUMS-CPS). 
+
+In 2003 and later years, respondents were asked, "Are you Spanish, Hispanic, or Latino?" rather than the broad query about origin or descent.  Detailed information about Hispanic ethnicity was collected only from those who answered "yes" to this initial question.]]></txt>
+  <catgry>
+    <catValu>000</catValu>
+    <labl>Not Hispanic</labl>
+  </catgry>
+  <catgry>
+    <catValu>100</catValu>
+    <labl>Mexican</labl>
+  </catgry>
+  <catgry>
+    <catValu>102</catValu>
+    <labl>Mexican American</labl>
+  </catgry>
+  <catgry>
+    <catValu>103</catValu>
+    <labl>Mexicano/Mexicana</labl>
+  </catgry>
+  <catgry>
+    <catValu>104</catValu>
+    <labl>Chicano/Chicana</labl>
+  </catgry>
+  <catgry>
+    <catValu>108</catValu>
+    <labl>Mexican (Mexicano)</labl>
+  </catgry>
+  <catgry>
+    <catValu>109</catValu>
+    <labl>Mexicano/Chicano</labl>
+  </catgry>
+  <catgry>
+    <catValu>200</catValu>
+    <labl>Puerto Rican</labl>
+  </catgry>
+  <catgry>
+    <catValu>300</catValu>
+    <labl>Cuban</labl>
+  </catgry>
+  <catgry>
+    <catValu>400</catValu>
+    <labl>Dominican</labl>
+  </catgry>
+  <catgry>
+    <catValu>500</catValu>
+    <labl>Salvadoran</labl>
+  </catgry>
+  <catgry>
+    <catValu>600</catValu>
+    <labl>Other Hispanic</labl>
+  </catgry>
+  <catgry>
+    <catValu>610</catValu>
+    <labl>Central/South American</labl>
+  </catgry>
+  <catgry>
+    <catValu>611</catValu>
+    <labl>Central American, (excluding Salvadoran)</labl>
+  </catgry>
+  <catgry>
+    <catValu>612</catValu>
+    <labl>South American</labl>
+  </catgry>
+  <catgry>
+    <catValu>901</catValu>
+    <labl>Do not know</labl>
+  </catgry>
+  <catgry>
+    <catValu>902</catValu>
+    <labl>N/A (and no response 1985-87)</labl>
+  </catgry>
+  <concept vocab="IPUMS">Ethnicity/Nativity Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="QHISPAN" files="ExtractData" name="QHISPAN" intrvl="discrete" dcml="0">
+  <location StartPos="135" width="2" EndPos="136"/>
+  <labl>Data quality flag for HISPAN</labl>
+  <txt><![CDATA[Data quality flag for HISPAN.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>No change / not allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>Value to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>Blank to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>Don't know to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>Refused to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>Value to value - no error</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>Blank to N/A code</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>Value to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>08</catValu>
+    <labl>Blank to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>09</catValu>
+    <labl>Don't know to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Refused to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>Value to allocated value long</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>Blank to allocated value long</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>Don't know to allocated value long</labl>
+  </catgry>
+  <catgry>
+    <catValu>14</catValu>
+    <labl>Refused to allocated value long</labl>
+  </catgry>
+  <catgry>
+    <catValu>15</catValu>
+    <labl>Value to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>16</catValu>
+    <labl>Blank to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>17</catValu>
+    <labl>Don't know to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>18</catValu>
+    <labl>Refused to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>19</catValu>
+    <labl>Value to blank</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>Don't know to blank</labl>
+  </catgry>
+  <catgry>
+    <catValu>21</catValu>
+    <labl>Refused to blank</labl>
+  </catgry>
+  <concept vocab="IPUMS">Data Quality Flags Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+  <notes>This variable functions as a data quality flag.</notes>
+</var><var ID="EMPSTAT" files="ExtractData" name="EMPSTAT" intrvl="discrete" dcml="0">
+  <location StartPos="137" width="2" EndPos="138"/>
+  <labl>Employment status</labl>
+  <txt><![CDATA[EMPSTAT indicates whether persons were part of the labor force--working or seeking work--and, if so, whether they were currently unemployed. The variable also provides information on the activity (e.g., doing housework, attending school,) or status (e.g., retired, unable to work) of persons not in the labor force, as well as limited additional information on those who are in the labor force (e.g. members of the Armed Forces, those with a job, but not at work last week). See LABFORCE for a dichotomous variable identifying whether a person participated in the labor force.
+
+In the CPS, individuals' employment status was determined on the basis of answers to a series of questions relating to their activities during the preceding week.  Those who reported doing any work at all for pay or profit, or working at least fifteen hours without pay in a family business or farm, were classified as "at work."  Those who did not work during the previous week but who acknowledged having a job or business from which they were temporarily absent (e.g., due to illness, vacation, bad weather, or labor dispute) were also classified as employed, under the heading "has job, not at work last week."
+
+Because the CPS is designed to measure unemployment in the civilian population, the original employment status variable in the survey classifies members of the armed forces as NIU (Not in universe).
+
+Unemployed persons make up the third element of the labor force.  Individuals were coded as unemployed if they did no work for pay or profit, did not have a job from which they were briefly absent, and either reported looking for work as their major activity during the previous week (for 1962 through 1993) or answered yes to a question about whether they had been looking for work in the past four weeks. People who were temporarily laid off from a job were also classified as unemployed. A separate CPS variable specifying whether an unemployed person had worked before or was looking for a first job was used to distinguish between "experienced" and "inexperienced" unemployed persons in IPUMS CPS.
+
+Persons who were neither employed nor unemployed fall into the residual category, "not in labor force."  Such individuals might be retired, disabled due to an illness lasting at least 6 months, occupied with other activities such as attending school or keeping house, or convinced that they are unlikely to find employment (discouraged workers).]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>Armed Forces</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>At work</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>Has job, not at work last week</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>Unemployed</labl>
+  </catgry>
+  <catgry>
+    <catValu>21</catValu>
+    <labl>Unemployed, experienced worker</labl>
+  </catgry>
+  <catgry>
+    <catValu>22</catValu>
+    <labl>Unemployed, new worker</labl>
+  </catgry>
+  <catgry>
+    <catValu>30</catValu>
+    <labl>Not in labor force</labl>
+  </catgry>
+  <catgry>
+    <catValu>31</catValu>
+    <labl>NILF, housework</labl>
+  </catgry>
+  <catgry>
+    <catValu>32</catValu>
+    <labl>NILF, unable to work</labl>
+  </catgry>
+  <catgry>
+    <catValu>33</catValu>
+    <labl>NILF, school</labl>
+  </catgry>
+  <catgry>
+    <catValu>34</catValu>
+    <labl>NILF, other</labl>
+  </catgry>
+  <catgry>
+    <catValu>35</catValu>
+    <labl>NILF, unpaid, lt 15 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>36</catValu>
+    <labl>NILF, retired</labl>
+  </catgry>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="OCC" files="ExtractData" name="OCC" intrvl="contin" dcml="0">
+  <location StartPos="139" width="4" EndPos="142"/>
+  <labl>Occupation</labl>
+  <txt><![CDATA[OCC reports the person's primary occupation.  Respondents who held more than one job were to report the job at which they worked the largest number of hours.  For persons who were employed at the time of the survey, OCC relates to the job worked during the preceding week; unemployed persons and those not currently in the labor force were to give their most recent occupation.   The CPS interviewer collected information by asking what kind of work the person was doing, and Census Bureau staff coded the information into the contemporary CPS or census occupational classification.  Researchers who wish to work with a consistent occupational coding scheme for 1968 forward should use the OCC1950 variable.  For general discussion of employment concepts, including the definition of those not in the labor force, see the documentation on EMPSTAT.]]></txt>
+  <codInstr><![CDATA[CodesOCC is a 4-digit numeric variable.
+(Codes for 1962-1967 are 2 digits; each is preceded by two zeros).
+(Codes for 1968-2002 are 3 digits; each is preceded by a zero in the first position.)
+
+1962-1967  
+1968-1970
+1971*-1982
+1983-1991
+1992-2002
+2003-2010
+2011-2019
+2020+
+*See comparability]]></codInstr>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="IND" files="ExtractData" name="IND" intrvl="contin" dcml="0">
+  <location StartPos="143" width="4" EndPos="146"/>
+  <labl>Industry</labl>
+  <txt><![CDATA[IND reports the type of industry in which the person performed his or her primary occupation, which is recorded in the variables OCC (Occupation) and, after 1968, OCC1950 (Occupation, 1950 basis).  "Industry" refers to the work setting and economic sector, while "occupation" relates to the worker's specific technical function.
+  
+For persons who were employed at the time of the survey, IND relates to the industrial sector in which the respondent worked during the preceding week.  For unemployed persons and those not currently in the labor force, IND characterizes the industrial sector of the respondent's most recent job.   The CPS interviewer collected information by asking what kind of work the person was doing, and Census Bureau staff coded the information into the CPS or census industrial classification.  Researchers who wish to work with a consistent industrial coding scheme for 1968 forward should use the IND1950 variable.  For general discussion of employment concepts, including the definition of those not in the labor force, see the documentation on EMPSTAT.]]></txt>
+  <codInstr><![CDATA[CodesIND is a 4-digit numeric variable.
+(Codes for 1962-1967 are 2 digits; each is preceded by two zeroes in the first positions.)
+(Codes for 1968-2002 are 3 digits; each is preceded by a zero in the first position.)
+
+1962
+1963-1967
+1968-1970
+1971-1982
+1983-1991
+1992-2002
+2003-2008
+2009-2013
+2014-2019
+2020-2024
+2025+]]></codInstr>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="UHRSWORKT" files="ExtractData" name="UHRSWORKT" intrvl="discrete" dcml="0">
+  <location StartPos="147" width="3" EndPos="149"/>
+  <labl>Hours usually worked per week at all jobs</labl>
+  <txt><![CDATA[UHRSWORKT is the usual number of hours per week the respondent reports being at all jobs, over an unspecified time period.
+
+See the Hours Worked Variables Notes for an overview of the different actual and usual hours worked variables available.]]></txt>
+  <catgry>
+    <catValu>997</catValu>
+    <labl>Hours vary</labl>
+  </catgry>
+  <catgry>
+    <catValu>999</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="WHYABSNT" files="ExtractData" name="WHYABSNT" intrvl="discrete" dcml="0">
+  <location StartPos="150" width="2" EndPos="151"/>
+  <labl>Reason for absence from work</labl>
+  <txt><![CDATA[WHYABSNT reports the reason for the absence of jobholders who were not working during the preceding week.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>On temporary layoff (under 30 days)</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>On indefinite layoff (30+ days)</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>Slack work/business conditions</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>Waiting for a new job to begin</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>Vacation/personal days</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>Own illness/injury/medical problems</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>Child care problems</labl>
+  </catgry>
+  <catgry>
+    <catValu>08</catValu>
+    <labl>Other family/personal obligation</labl>
+  </catgry>
+  <catgry>
+    <catValu>09</catValu>
+    <labl>Maternity/paternity leave</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Labor dispute</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>Weather affected job</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>School/training</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>Civic/military duty</labl>
+  </catgry>
+  <catgry>
+    <catValu>14</catValu>
+    <labl>Does not work in the business</labl>
+  </catgry>
+  <catgry>
+    <catValu>15</catValu>
+    <labl>Other</labl>
+  </catgry>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="WHYPTLWK" files="ExtractData" name="WHYPTLWK" intrvl="discrete" dcml="0">
+  <location StartPos="152" width="3" EndPos="154"/>
+  <labl>Reason for working part time last week</labl>
+  <txt><![CDATA[WHYPTLWK reports the reason why respondents worked part-time (a total of less than 35 hours combined for all jobs) during the previous week.   Some of these individuals normally worked a part-time job; others usually worked full-time but worked less than 35 hours during the week in question. These two groups can be identified using USFTPTLW, which reports whether persons who worked part-time (less than 35 hours) during the preceding week usually worked full-time (35 hours or more).     
+
+The total number of hours the respondent worked during the previous week is reported in AHRSWORKT.  WHYPTLYreports the reason why respondents worked part-time (less than 35 hours) for at least one week during the previous calendar year.]]></txt>
+  <catgry>
+    <catValu>000</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>001</catValu>
+    <labl>No response</labl>
+  </catgry>
+  <catgry>
+    <catValu>010</catValu>
+    <labl>Slack work, business conditions</labl>
+  </catgry>
+  <catgry>
+    <catValu>011</catValu>
+    <labl>Material shortage</labl>
+  </catgry>
+  <catgry>
+    <catValu>012</catValu>
+    <labl>Plant or machine repairs</labl>
+  </catgry>
+  <catgry>
+    <catValu>020</catValu>
+    <labl>Seasonal work</labl>
+  </catgry>
+  <catgry>
+    <catValu>030</catValu>
+    <labl>Weather affected job</labl>
+  </catgry>
+  <catgry>
+    <catValu>040</catValu>
+    <labl>Labor dispute</labl>
+  </catgry>
+  <catgry>
+    <catValu>050</catValu>
+    <labl>job started/ended during week</labl>
+  </catgry>
+  <catgry>
+    <catValu>051</catValu>
+    <labl>New job started</labl>
+  </catgry>
+  <catgry>
+    <catValu>052</catValu>
+    <labl>Job terminated</labl>
+  </catgry>
+  <catgry>
+    <catValu>060</catValu>
+    <labl>Could only find part-time</labl>
+  </catgry>
+  <catgry>
+    <catValu>070</catValu>
+    <labl>Not want full time work</labl>
+  </catgry>
+  <catgry>
+    <catValu>071</catValu>
+    <labl>Retired/SS limit on earnings</labl>
+  </catgry>
+  <catgry>
+    <catValu>080</catValu>
+    <labl>Full time work week under 35 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>081</catValu>
+    <labl>Full time peak season only</labl>
+  </catgry>
+  <catgry>
+    <catValu>090</catValu>
+    <labl>Holiday</labl>
+  </catgry>
+  <catgry>
+    <catValu>100</catValu>
+    <labl>Own illness</labl>
+  </catgry>
+  <catgry>
+    <catValu>101</catValu>
+    <labl>Health/medical limitation</labl>
+  </catgry>
+  <catgry>
+    <catValu>110</catValu>
+    <labl>On vacation</labl>
+  </catgry>
+  <catgry>
+    <catValu>111</catValu>
+    <labl>Vacation/personal day</labl>
+  </catgry>
+  <catgry>
+    <catValu>120</catValu>
+    <labl>Too busy with house, school, etc</labl>
+  </catgry>
+  <catgry>
+    <catValu>121</catValu>
+    <labl>Child care problems</labl>
+  </catgry>
+  <catgry>
+    <catValu>122</catValu>
+    <labl>Other family/personal obligations</labl>
+  </catgry>
+  <catgry>
+    <catValu>123</catValu>
+    <labl>School/training</labl>
+  </catgry>
+  <catgry>
+    <catValu>124</catValu>
+    <labl>Civic/military duty</labl>
+  </catgry>
+  <catgry>
+    <catValu>130</catValu>
+    <labl>Other</labl>
+  </catgry>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="WKSTAT" files="ExtractData" name="WKSTAT" intrvl="discrete" dcml="0">
+  <location StartPos="155" width="2" EndPos="156"/>
+  <labl>Full or part time status</labl>
+  <txt><![CDATA[WKSTAT is a recode from the Census Bureau that states the part-time or full-time employment status for the respondent, and reasons.  It is derived from a number of labor force questions asked in the monthly questionnaire.]]></txt>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Full-time schedules</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>Full-time hours (35+), usually full-time</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>Part-time for non-economic reasons, usually full-time</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>Not at work, usually full-time</labl>
+  </catgry>
+  <catgry>
+    <catValu>14</catValu>
+    <labl>Full-time hours, usually part-time for economic reasons</labl>
+  </catgry>
+  <catgry>
+    <catValu>15</catValu>
+    <labl>Full-time hours, usually part-time for non-economic reasons</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>Part-time for economic reasons</labl>
+  </catgry>
+  <catgry>
+    <catValu>21</catValu>
+    <labl>Part-time for economic reasons, usually full-time</labl>
+  </catgry>
+  <catgry>
+    <catValu>22</catValu>
+    <labl>Part-time hours, usually part-time for economic reasons</labl>
+  </catgry>
+  <catgry>
+    <catValu>40</catValu>
+    <labl>Part-time for non-economic reasons, usually part-time</labl>
+  </catgry>
+  <catgry>
+    <catValu>41</catValu>
+    <labl>Part-time hours, usually part-time for non-economic reasons</labl>
+  </catgry>
+  <catgry>
+    <catValu>42</catValu>
+    <labl>Not at work, usually part-time</labl>
+  </catgry>
+  <catgry>
+    <catValu>50</catValu>
+    <labl>Unemployed, seeking full-time work</labl>
+  </catgry>
+  <catgry>
+    <catValu>60</catValu>
+    <labl>Unemployed, seeking part-time work</labl>
+  </catgry>
+  <catgry>
+    <catValu>99</catValu>
+    <labl>NIU, blank, or not in labor force</labl>
+  </catgry>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="QEMPSTAT" files="ExtractData" name="QEMPSTAT" intrvl="discrete" dcml="0">
+  <location StartPos="157" width="1" EndPos="157"/>
+  <labl>Data quality flag for EMPSTAT</labl>
+  <txt><![CDATA[Data quality flag for EMPSTAT.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>No change or children or armed forces</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Value to blank</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Blank to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Value to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Blank to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Blank to longitudinal value</labl>
+  </catgry>
+  <concept vocab="IPUMS">Data Quality Flags Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+  <notes>This variable functions as a data quality flag.</notes>
+</var><var ID="QIND" files="ExtractData" name="QIND" intrvl="discrete" dcml="0">
+  <location StartPos="158" width="1" EndPos="158"/>
+  <labl>Data quality flag for IND</labl>
+  <txt><![CDATA[Data quality flag for IND.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>No change or children or armed forces</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Value to blank</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Blank to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Value to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Value to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Blank to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Blank to longitudinal value</labl>
+  </catgry>
+  <concept vocab="IPUMS">Data Quality Flags Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+  <notes>This variable functions as a data quality flag.</notes>
+</var><var ID="QOCC" files="ExtractData" name="QOCC" intrvl="discrete" dcml="0">
+  <location StartPos="159" width="1" EndPos="159"/>
+  <labl>Data quality flag for OCC</labl>
+  <txt><![CDATA[Data quality flag for OCC.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>No change or children or armed forces</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Value to blank</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Blank to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Value to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Value to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Blank to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Blank to longitudinal value</labl>
+  </catgry>
+  <concept vocab="IPUMS">Data Quality Flags Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+  <notes>This variable functions as a data quality flag.</notes>
+</var><var ID="QWHYABSN" files="ExtractData" name="QWHYABSN" intrvl="discrete" dcml="0">
+  <location StartPos="160" width="2" EndPos="161"/>
+  <labl>Data quality flag for WHYABSNT</labl>
+  <txt><![CDATA[Data quality flag for WHYABSNT.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>No change</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>Value to blank</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>Blank to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>Value to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>Allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>Value to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>Blank to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>Don't know to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>08</catValu>
+    <labl>Refused to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>09</catValu>
+    <labl>Don't know to blank</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Refused to blank</labl>
+  </catgry>
+  <concept vocab="IPUMS">Data Quality Flags Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+  <notes>This variable functions as a data quality flag.</notes>
+</var><var ID="EDUC" files="ExtractData" name="EDUC" intrvl="discrete" dcml="0">
+  <location StartPos="162" width="3" EndPos="164"/>
+  <labl>Educational attainment recode</labl>
+  <txt><![CDATA[EDUC indicates respondents' educational attainment, as measured by the highest year of school or degree completed. Note that completion differs from the highest year of school attendance; for example, respondents whoÂ attendedÂ 10th grade but did not finish were classified in EDUC as havingÂ completedÂ 9th grade.Â 
+
+EDUC is a combination of two other variables, HIGRADE and EDUC99, which measure educational attainment in different ways.  HIGRADE is available for years prior to 1992 and gives the respondent's highest grade of school or year of college completed.  EDUC99 is available beginning in 1992 and classifies high school graduates according to their highest degree or diploma attained.  
+
+General and detailed codes are not yet available for IPUMS-CPS, but one can construct the general version of EDUC by reading only the first two columns of EDUC.]]></txt>
+  <catgry>
+    <catValu>000</catValu>
+    <labl>NIU or no schooling</labl>
+  </catgry>
+  <catgry>
+    <catValu>001</catValu>
+    <labl>NIU or blank</labl>
+  </catgry>
+  <catgry>
+    <catValu>002</catValu>
+    <labl>None or preschool</labl>
+  </catgry>
+  <catgry>
+    <catValu>010</catValu>
+    <labl>Grades 1, 2, 3, or 4</labl>
+  </catgry>
+  <catgry>
+    <catValu>011</catValu>
+    <labl>Grade 1</labl>
+  </catgry>
+  <catgry>
+    <catValu>012</catValu>
+    <labl>Grade 2</labl>
+  </catgry>
+  <catgry>
+    <catValu>013</catValu>
+    <labl>Grade 3</labl>
+  </catgry>
+  <catgry>
+    <catValu>014</catValu>
+    <labl>Grade 4</labl>
+  </catgry>
+  <catgry>
+    <catValu>020</catValu>
+    <labl>Grades 5 or 6</labl>
+  </catgry>
+  <catgry>
+    <catValu>021</catValu>
+    <labl>Grade 5</labl>
+  </catgry>
+  <catgry>
+    <catValu>022</catValu>
+    <labl>Grade 6</labl>
+  </catgry>
+  <catgry>
+    <catValu>030</catValu>
+    <labl>Grades 7 or 8</labl>
+  </catgry>
+  <catgry>
+    <catValu>031</catValu>
+    <labl>Grade 7</labl>
+  </catgry>
+  <catgry>
+    <catValu>032</catValu>
+    <labl>Grade 8</labl>
+  </catgry>
+  <catgry>
+    <catValu>040</catValu>
+    <labl>Grade 9</labl>
+  </catgry>
+  <catgry>
+    <catValu>050</catValu>
+    <labl>Grade 10</labl>
+  </catgry>
+  <catgry>
+    <catValu>060</catValu>
+    <labl>Grade 11</labl>
+  </catgry>
+  <catgry>
+    <catValu>070</catValu>
+    <labl>Grade 12</labl>
+  </catgry>
+  <catgry>
+    <catValu>071</catValu>
+    <labl>12th grade, no diploma</labl>
+  </catgry>
+  <catgry>
+    <catValu>072</catValu>
+    <labl>12th grade, diploma unclear</labl>
+  </catgry>
+  <catgry>
+    <catValu>073</catValu>
+    <labl>High school diploma or equivalent</labl>
+  </catgry>
+  <catgry>
+    <catValu>080</catValu>
+    <labl>1 year of college</labl>
+  </catgry>
+  <catgry>
+    <catValu>081</catValu>
+    <labl>Some college but no degree</labl>
+  </catgry>
+  <catgry>
+    <catValu>090</catValu>
+    <labl>2 years of college</labl>
+  </catgry>
+  <catgry>
+    <catValu>091</catValu>
+    <labl>Associate's degree, occupational/vocational program</labl>
+  </catgry>
+  <catgry>
+    <catValu>092</catValu>
+    <labl>Associate's degree, academic program</labl>
+  </catgry>
+  <catgry>
+    <catValu>100</catValu>
+    <labl>3 years of college</labl>
+  </catgry>
+  <catgry>
+    <catValu>110</catValu>
+    <labl>4 years of college</labl>
+  </catgry>
+  <catgry>
+    <catValu>111</catValu>
+    <labl>Bachelor's degree</labl>
+  </catgry>
+  <catgry>
+    <catValu>120</catValu>
+    <labl>5+ years of college</labl>
+  </catgry>
+  <catgry>
+    <catValu>121</catValu>
+    <labl>5 years of college</labl>
+  </catgry>
+  <catgry>
+    <catValu>122</catValu>
+    <labl>6+ years of college</labl>
+  </catgry>
+  <catgry>
+    <catValu>123</catValu>
+    <labl>Master's degree</labl>
+  </catgry>
+  <catgry>
+    <catValu>124</catValu>
+    <labl>Professional school degree</labl>
+  </catgry>
+  <catgry>
+    <catValu>125</catValu>
+    <labl>Doctorate degree</labl>
+  </catgry>
+  <catgry>
+    <catValu>999</catValu>
+    <labl>Missing/Unknown</labl>
+  </catgry>
+  <concept vocab="IPUMS">Education Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="QEDUC" files="ExtractData" name="QEDUC" intrvl="discrete" dcml="0">
+  <location StartPos="165" width="2" EndPos="166"/>
+  <labl>Data quality flag for EDUC</labl>
+  <txt><![CDATA[Data quality flag for EDUC.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>No change</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>Allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>Value to blank</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>Blank to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>Don't know to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>Refused to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>Blank to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>Don't know to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>08</catValu>
+    <labl>Refused to longitudinal value</labl>
+  </catgry>
+  <catgry>
+    <catValu>09</catValu>
+    <labl>Don't know to blank</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Refused to blank</labl>
+  </catgry>
+  <concept vocab="IPUMS">Data Quality Flags Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+  <notes>This variable functions as a data quality flag.</notes>
+</var><var ID="DIFFANY" files="ExtractData" name="DIFFANY" intrvl="discrete" dcml="0">
+  <location StartPos="167" width="1" EndPos="167"/>
+  <labl>Any difficulty</labl>
+  <txt><![CDATA[DIFFANY indicates whether the respondent has any physical or cognitive difficulty, as measured by an affirmative response to at least one of the CPS' six physical or cognitive difficulties (DIFFHEAR, DIFFEYE, DIFFREM, DIFFPHYS, DIFFMOB, and DIFFCARE).
+
+These data are collected in MISH 1 and 5 unless the household is new to the CPS. For additional information, see BLS frequently asked questions about disability data.
+
+Researchers using these data should also note that estimates of disability prevalence from CPS are lower than estimates from other large-scale datasets.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No difficulty</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Has difficulty</labl>
+  </catgry>
+  <concept vocab="IPUMS">Disability Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="ASECWT04" files="ExtractData" name="ASECWT04" intrvl="contin" dcml="2">
+  <location StartPos="168" width="8" EndPos="175"/>
+  <labl>Person weight 2004</labl>
+  <txt><![CDATA[In July 2005, the Census Bureau recalculated weights for 2004 using more age detail for children. These calculations, which produce the official weights used in the 2005 and 2006 ASEC supplements, provide better estimates of children by single year of age. ASECWT04 is an alternative person-level weight to ASECWT, which was the person weight originally released with the 2004 data. For 2004, both of these person weights are made available through the IPUMS. 
+
+The CPS uses a complex stratified sampling scheme, and either ASECWT or ASECWT04 must be used to produce unbiased statistics from IPUMS-CPS. Researchers should use WTFINL rather than WTSUPP/PERWT04 when they wish to reproduce the published Bureau of Labor Statistics figures based on basic monthly survey questions, and should use EARNWT for a small number of person-level variables (EARNWEEK, HOURWAGE, PAIDHOUR, and UNION). Researchers should use ASECWTH or ASECWTH04 for household-level analyses.
+
+PERWT04 is based on the inverse probability of selection into the sample and adjustments for the following factors: failure to obtain an interview; sampling within large sample units; the known distribution of the entire population according to age, sex, and race; over-sampling Hispanic persons; to give husbands and wives the same weight; and an additional step to provide consistency with labor force estimates from the basic survey. 
+
+Members of the armed forces and persons included in the Hispanic over-sample have a non-zero value for ASECWT04 but are coded as zero in WTFINL.]]></txt>
+  <codInstr><![CDATA[
+  Codes
+  ASECWT04 is a 7-digit numeric variable.
+]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="EARNWT" files="ExtractData" name="EARNWT" intrvl="contin" dcml="4">
+  <location StartPos="176" width="10" EndPos="185"/>
+  <labl>Earnings weight</labl>
+  <txt><![CDATA[EARNWT is a person-level weight that should be used in any analysis including one of the following variables: EARNWEEK, HOURWAGE, PAIDHOUR, UNION, UHRSWORKORG, WKSWORKORG, ELIGORG, and OTPAY. For any other analysis using ASEC data, researchers should use ASECWT or for analyses of non-ASEC data, WTFINL.
+
+Individuals in the 6 rotation groups that were not asked the "earner study" questions (covering EARNWEEK, HOURWAGE, PAIDHOUR, UNION, UHRSWORKORG, WKSWORKORG, ELIGORG, and OTPAY) have a value of zero for EARNWT. Even in the 2 rotation groups where "earner study" questions were fielded, members of the armed forces have a value of zero for EARNWT.  
+
+According to 
+  Technical Paper 66
+, issued jointly by the Census Bureau and the Bureau of Labor Statistics, individuals eligible for the earner study are civilians age 15 and older in rotation groups 4 or 8 who are not self-employed. In the data itself, this is true in all samples up to and including those in 1997. From 1998 to 2010, only individuals age 16 and older in rotation groups 4 or 8, and are not self-employed, are in universe for this variable. This universe also applies to basic monthly samples after 2010. In ASEC samples after 2010, the data reflect the published universe.
+
+In any given month, approximately 1/4 of the CPS sample is in the earner study and each household should appear in the earner study exactly twice. Based on documentation from Unicon and  NBER, and after an inspection of the original CPS data, we recommend that users impose the CPS eligibility restrictions in any analyses of earner study variables.]]></txt>
+  <codInstr><![CDATA[
+  Codes
+  EARNWT is an 8-digit numeric variable with four implied decimals.  That is, 12345678 should be interpreted as 1234.5678.  The IPUMS command files automatically divide EARNWT by 10000, so no further adjustment is needed.
+]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="WORKLY" files="ExtractData" name="WORKLY" intrvl="discrete" dcml="0">
+  <location StartPos="186" width="2" EndPos="187"/>
+  <labl>Worked last year</labl>
+  <txt><![CDATA[WORKLY indicates whether or not the respondent worked any time in the calendar year previous to the survey year.  For example, if the respondent is interviewed in March of 2015, they are reporting whether they had worked any time in 2014.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="WHYPTLY" files="ExtractData" name="WHYPTLY" intrvl="discrete" dcml="0">
+  <location StartPos="188" width="1" EndPos="188"/>
+  <labl>Reason for working part-time last year</labl>
+  <txt><![CDATA[WHYPTLY reports the reason why respondents worked part-time (less than 35 hours) for at least one week during the previous calendar year.   Some of these individuals normally worked a part-time job; others usually worked full-time but worked less than 35 hours for some weeks (e.g., because of slack work or a shortage of materials).   Paid time off due to vacations, holidays, or sick leave did not count.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Could not find full time job</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Wanted part time</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Slack work</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Other</labl>
+  </catgry>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="USFTPTLW" files="ExtractData" name="USFTPTLW" intrvl="discrete" dcml="0">
+  <location StartPos="189" width="1" EndPos="189"/>
+  <labl>Usually work full time (part time last week)</labl>
+  <txt><![CDATA[USFTPTLW reports whether persons who worked part-time (less than 35 hours) during the preceding week usually worked full-time (35 hours or more).]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="WHYNWLY" files="ExtractData" name="WHYNWLY" intrvl="discrete" dcml="0">
+  <location StartPos="190" width="1" EndPos="190"/>
+  <labl>Reason not working last year</labl>
+  <txt><![CDATA[WHYNWLY reports the main reason given for not working at all during the previous calendar year.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Could not find work</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Ill or disabled</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Taking care of home/family</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Going to school</labl>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Retired</labl>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>In Armed Forces</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Other</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unknown/missing</labl>
+  </catgry>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="QWHYNWLY" files="ExtractData" name="QWHYNWLY" intrvl="discrete" dcml="0">
+  <location StartPos="191" width="1" EndPos="191"/>
+  <labl>Data quality flag for WHYNWLY</labl>
+  <txt><![CDATA[Data quality flag for WHYNWLY.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>No change or children</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Allocated</labl>
+  </catgry>
+  <concept vocab="IPUMS">Data Quality Flags Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+  <notes>This variable functions as a data quality flag.</notes>
+</var><var ID="INCSS" files="ExtractData" name="INCSS" intrvl="contin" dcml="0">
+  <location StartPos="192" width="6" EndPos="197"/>
+  <labl>Social Security income</labl>
+  <txt><![CDATA[INCSS indicates how much pre-tax income (if any) the respondent received from Social Security or U.S. government Railroad Retirement insurance payments (for 1968-1979) or from Social Security payments exclusively (1980 forward).  
+
+Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors.]]></txt>
+  <codInstr><![CDATA[Codes999999 = N.I.U. (Not in Universe).
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+  <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="QEARNWEE" files="ExtractData" name="QEARNWEE" intrvl="discrete" dcml="0">
+  <location StartPos="198" width="1" EndPos="198"/>
+  <labl>Data quality flag for EARNWEEK</labl>
+  <txt><![CDATA[Data quality flag for EARNWEEK.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>Not allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Allocated</labl>
+  </catgry>
+  <concept vocab="IPUMS">Data Quality Flags Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+  <notes>This variable functions as a data quality flag.</notes>
+</var><var ID="QINCSS" files="ExtractData" name="QINCSS" intrvl="discrete" dcml="0">
+  <location StartPos="199" width="1" EndPos="199"/>
+  <labl>Data quality flag for INCSS [general version]</labl>
+  <txt><![CDATA[Data quality flag for INCSS.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>Not allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Income amount allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Recipiency type allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Income amount  and recipiency type allocated</labl>
+  </catgry>
+  <concept vocab="IPUMS">Data Quality Flags Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+  <notes>This variable functions as a data quality flag.</notes>
+</var><var ID="QINCSSD" files="ExtractData" name="QINCSSD" intrvl="discrete" dcml="0">
+  <location StartPos="200" width="2" EndPos="201"/>
+  <labl>Data quality flag for INCSS [detailed version]</labl>
+  <txt><![CDATA[Data quality flag for INCSS.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>Not allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Income amount allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>Value imputed is less than 25 percent of composite value</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>Value imputed is between 25 and 50 percent of compsite variable</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>Value imputed is between 50 and 75 percent of compsite variable</labl>
+  </catgry>
+  <catgry>
+    <catValu>14</catValu>
+    <labl>Value imputed is between 75 and 100 percent of compsite variable</labl>
+  </catgry>
+  <catgry>
+    <catValu>15</catValu>
+    <labl>Value is 100 percent imputed in composite varible</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>Recipiency type allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>30</catValu>
+    <labl>Income amount  and recipiency type allocated</labl>
+  </catgry>
+  <concept vocab="IPUMS">Data Quality Flags Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+  <notes>This variable functions as a data quality flag.</notes>
+</var><var ID="SPMPOV" files="ExtractData" name="SPMPOV" intrvl="discrete" dcml="0">
+  <location StartPos="202" width="1" EndPos="202"/>
+  <labl>SPM unit's poverty status</labl>
+  <txt><![CDATA[SPMPOV indicates whether a family is classified as poor according to the Research Supplemental Poverty Measure (SPM). Researchers should use the weight developed for the SPM when using SPMPOV. This weight is available in SPMWT.
+
+The SPM is calculated by the Census Bureau as an alternative indicator of poverty status. It incorporates the value of tax and transfer benefits not included in the official poverty measure. In addition, the SPM thresholds are calculated based on consumer expenditure data and take into account geographic differences in the cost of living. Finally, the SPM is calculated using a different definition of family membership than the official poverty measure. Differences include treating cohabiting couples as members of the same family, including foster children in the family of the head of household, and placing no age or marital status restrictions on identifiable family relationships among adults who are unrelated to the householder.
+
+For more information on the calculation of the SPM, see the Census Bureau's "The Research Supplemental Poverty Measure" report.  Note that the SPM data files were made confidential by the Census Bureau before public release. Consequently, poverty estimates produced using the public use files may differ slightly from those reported in Census Bureau studies.
+
+A family is classified as poor by this measure if their total economic resources fall below the poverty threshold. SPM family units are identified in SPMFAMUNIT.
+
+In 2014, the Census Bureau updated the SPM public use research files to reflect three changes. First, the 2010 and 2011 files include updated tax estimates. Second, all files use a revised estimate for WIC (see SPMWIC for more information). Third, the updated files use Census 2010-based population controls as opposed to Census 2000-based population controls, as it was originally released (see WTSUPP for more information). These changes are documented on the Census Bureau site (Supplemental Poverty Measure Public Use Files).]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>Above poverty (SPM)</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Below poverty (SPM)</labl>
+  </catgry>
+  <concept vocab="IPUMS">Supplemental Poverty Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="DISABWRK" files="ExtractData" name="DISABWRK" intrvl="discrete" dcml="0">
+  <location StartPos="203" width="1" EndPos="203"/>
+  <labl>Work disability</labl>
+  <txt><![CDATA[DISABWRK identifies persons who had "a health problem or a disability which prevents him/her from working or which limits the kind or amount of work."  This question was used to determine whether a follow-up question should be asked about the receipt of income as the result of a health problem.  Respondents were not supposed to refer to short, acute illnesses (e.g., influenza) or temporary conditions (e.g., pregnancy or broken bones), but this is not specified in the question wording.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No disability that affects work</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Disability limits or prevents work</labl>
+  </catgry>
+  <concept vocab="IPUMS">Disability Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="QDISABWK" files="ExtractData" name="QDISABWK" intrvl="discrete" dcml="0">
+  <location StartPos="204" width="1" EndPos="204"/>
+  <labl>Data quality flag for DISABWRK</labl>
+  <txt><![CDATA[Data quality flag for DISABWRK.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>Not allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Allocated</labl>
+  </catgry>
+  <concept vocab="IPUMS">Data Quality Flags Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+  <notes>This variable functions as a data quality flag.</notes>
+</var><var ID="ANYCOVNW" files="ExtractData" name="ANYCOVNW" intrvl="discrete" dcml="0">
+  <location StartPos="205" width="1" EndPos="205"/>
+  <labl>Covered by health insurance at time of interview</labl>
+  <txt><![CDATA[ANYCOVNW indicates whether the respondent was covered by any type of health insurance at the time of the interview.  ANYCOVNW is a Census recode of current coverage of private health insurance, Medicare, Medicaid, CHIP, other government coverage, or military coverage (TRICARE, VA Care, CHAMPVA).]]></txt>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Covered</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Not covered</labl>
+  </catgry>
+  <concept vocab="IPUMS">Health Insurance Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="PAIDHOUR" files="ExtractData" name="PAIDHOUR" intrvl="discrete" dcml="0">
+  <location StartPos="206" width="1" EndPos="206"/>
+  <labl>Paid by the hour</labl>
+  <txt><![CDATA[PAIDHOUR is a dichotomous variable indicating whether the respondent was paid by the hour for their current job or not.  Researchers should use the EARNWT weight with this variable.
+
+PAIDHOUR is one of the Outgoing Rotation/Earner Study questions.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes</labl>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Refused</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Don't Know</labl>
+  </catgry>
+  <concept vocab="IPUMS">Outgoing Rotation Groups (Earner Study) Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="UNION" files="ExtractData" name="UNION" intrvl="discrete" dcml="0">
+  <location StartPos="207" width="1" EndPos="207"/>
+  <labl>Union membership</labl>
+  <txt><![CDATA[UNION indicates whether, for the current job, the respondent was: 1) a member of a labor union or employee association similar to a union; 2) not a union member but covered by a union or employee association contract; or 3) neither a union member nor covered by a union contract.  Researchers should use the EARNWT weight with this variable.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No union coverage</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Member of labor union</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Covered by union but not a member</labl>
+  </catgry>
+  <concept vocab="IPUMS">Outgoing Rotation Groups (Earner Study) Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="EARNWEEK" files="ExtractData" name="EARNWEEK" intrvl="contin" dcml="2">
+  <location StartPos="208" width="8" EndPos="215"/>
+  <labl>Weekly earnings</labl>
+  <txt><![CDATA[EARNWEEK reports how much the respondent usually earned per week at their current job, before deductions. Interviewers asked directly about total weekly earnings and also collected information about the usual number of hours worked per week and the hourly rate of pay at the current job. The figure given in EARNWEEK is the higher of the values derived from these two sources: 1) the respondent's answer to the question, "How much do you usually earn per week at this job before deductions?" or 2) for workers paid by the hour (and coded as "2" in PAIDHOUR), the reported number of hours the respondent usually worked at the job, multiplied by the hourly wage rate given in HOURWAGE.
+
+Amounts are expressed as they were reported to the interviewer, users must adjust for inflation using Consumer Price Index adjustment factors. Researchers should use the EARNWT weight with this variable.
+
+EARNWEEK is one of the Outgoing Rotation/Earner Study questions.]]></txt>
+  <codInstr><![CDATA[Codes9999.99 = N.I.U.
+
+		
+Top codes:1982-1988: 999 (Weekly earnings of $999 or more).
+1989-1997: 1923 (Weekly earnings of $1923 or more).
+1998-onward: 2885 (Weekly earnings of $2885 or more: ASEC samples only). 2884.61 for non-ASEC samples.]]></codInstr>
+  <concept vocab="IPUMS">Outgoing Rotation Groups (Earner Study) Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="QPAIDHOU" files="ExtractData" name="QPAIDHOU" intrvl="discrete" dcml="0">
+  <location StartPos="216" width="2" EndPos="217"/>
+  <labl>Data quality flag for PAIDHOUR</labl>
+  <txt><![CDATA[Data quality flag for PAIDHOUR.]]></txt>
+  <catgry>
+    <catValu>-1</catValu>
+    <labl>No change / not allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>Value - no change</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>Blank - no change</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>Don't know - no change</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>Refused - no change</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>Allocated - no method specified</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Value to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>Blank to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>Don't know to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>Refused to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>50</catValu>
+    <labl>Value to blank</labl>
+  </catgry>
+  <catgry>
+    <catValu>52</catValu>
+    <labl>Don't know to blank</labl>
+  </catgry>
+  <catgry>
+    <catValu>53</catValu>
+    <labl>Refused to blank</labl>
+  </catgry>
+  <concept vocab="IPUMS">Data Quality Flags Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+  <notes>This variable functions as a data quality flag.</notes>
+</var><var ID="QUNION" files="ExtractData" name="QUNION" intrvl="discrete" dcml="0">
+  <location StartPos="218" width="1" EndPos="218"/>
+  <labl>Data quality flag for UNION</labl>
+  <txt><![CDATA[Data quality flag for UNION.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>No change</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Value to blank</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Blank to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Value to value</labl>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Allocated</labl>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Blank to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Don't know to allocated value</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Refused to allocated value</labl>
+  </catgry>
+  <concept vocab="IPUMS">Data Quality Flags Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+  <notes>This variable functions as a data quality flag.</notes>
+</var><var ID="UH_GRDATN_A1" files="ExtractData" name="UH_GRDATN_A1" intrvl="discrete" dcml="0">
+  <location StartPos="219" width="2" EndPos="220"/>
+  <labl>Educational attainment, 1992-2024</labl>
+  <txt><![CDATA[Educational attainment - 1992-2024
+
+Unicon Corporation made the following notes about this variable:
+A user from PPIC who has compared education distributions over time between the CPS and the Census, has concluded that people with grdhi=13 and grdcom=2 (did not complete grade) should be coded as "with some college" when trying to match grdatn codes with earlier years.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>Children</labl>
+  </catgry>
+  <catgry>
+    <catValu>31</catValu>
+    <labl>Less than 1st grade</labl>
+  </catgry>
+  <catgry>
+    <catValu>32</catValu>
+    <labl>1st, 2nd, 3rd, or 4th grade</labl>
+  </catgry>
+  <catgry>
+    <catValu>33</catValu>
+    <labl>5th or 6th grade</labl>
+  </catgry>
+  <catgry>
+    <catValu>34</catValu>
+    <labl>7th and 8th grade</labl>
+  </catgry>
+  <catgry>
+    <catValu>35</catValu>
+    <labl>9th grade</labl>
+  </catgry>
+  <catgry>
+    <catValu>36</catValu>
+    <labl>10th grade</labl>
+  </catgry>
+  <catgry>
+    <catValu>37</catValu>
+    <labl>11th grade</labl>
+  </catgry>
+  <catgry>
+    <catValu>38</catValu>
+    <labl>12th grade no diploma</labl>
+  </catgry>
+  <catgry>
+    <catValu>39</catValu>
+    <labl>High school graduate-High school</labl>
+  </catgry>
+  <catgry>
+    <catValu>40</catValu>
+    <labl>Some college but no degree</labl>
+  </catgry>
+  <catgry>
+    <catValu>41</catValu>
+    <labl>Associate's degree in college - occupational/vocational</labl>
+  </catgry>
+  <catgry>
+    <catValu>42</catValu>
+    <labl>Associate's degree in college - academic</labl>
+  </catgry>
+  <catgry>
+    <catValu>43</catValu>
+    <labl>Bachelor's degree (for example: BA,</labl>
+  </catgry>
+  <catgry>
+    <catValu>44</catValu>
+    <labl>Master's degree (for example: MA, MS,</labl>
+  </catgry>
+  <catgry>
+    <catValu>45</catValu>
+    <labl>Professional school degree (for</labl>
+  </catgry>
+  <catgry>
+    <catValu>46</catValu>
+    <labl>Doctorate degree (for example:</labl>
+  </catgry>
+  <concept vocab="IPUMS">Education Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="UH_PTREAS_A3" files="ExtractData" name="UH_PTREAS_A3" intrvl="discrete" dcml="0">
+  <location StartPos="221" width="2" EndPos="222"/>
+  <labl>Reason for working less than 35 hours a week, 1994-2024</labl>
+  <txt><![CDATA[Reason for working less than 35 hours a week last week - 1968-2024]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>Usually full-time - slack work/business</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>Usually full-time - seasonal work</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>Usually full-time - job started/ended</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>Usually full-time - vacation/personal day</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>Usually full-time - own illness/injury/</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>Usually full-time - holiday (religious</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>Usually full-time - child care problems</labl>
+  </catgry>
+  <catgry>
+    <catValu>08</catValu>
+    <labl>Usually full-time - other fam/pers</labl>
+  </catgry>
+  <catgry>
+    <catValu>09</catValu>
+    <labl>Usually full-time - labor dispute</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Usually full-time - weather affected job</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>Usually full-time - school/training</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>Usually full-time - civic/military duty</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>Usually full-time - other reason</labl>
+  </catgry>
+  <catgry>
+    <catValu>14</catValu>
+    <labl>Usually part-time - slack work/business</labl>
+  </catgry>
+  <catgry>
+    <catValu>15</catValu>
+    <labl>Usually part-time - pt could only find</labl>
+  </catgry>
+  <catgry>
+    <catValu>16</catValu>
+    <labl>Usually part-time - seasonal work</labl>
+  </catgry>
+  <catgry>
+    <catValu>17</catValu>
+    <labl>Usually part-time - child care problems</labl>
+  </catgry>
+  <catgry>
+    <catValu>18</catValu>
+    <labl>Usually part-time - other fam/pers</labl>
+  </catgry>
+  <catgry>
+    <catValu>19</catValu>
+    <labl>Usually part-time - health/medical</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>Usually part-time - school/training</labl>
+  </catgry>
+  <catgry>
+    <catValu>21</catValu>
+    <labl>Usually part-time - retired/ss limit</labl>
+  </catgry>
+  <catgry>
+    <catValu>22</catValu>
+    <labl>Usually part-time - workweek lt 35 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>23</catValu>
+    <labl>Usually part-time - other reason</labl>
+  </catgry>
+  <concept vocab="IPUMS">Hours Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var><var ID="UH_WGTS_A1" files="ExtractData" name="UH_WGTS_A1" intrvl="contin" dcml="2">
+  <location StartPos="223" width="12" EndPos="234"/>
+  <labl>March supplemental person level weight, 1962-2024</labl>
+  <txt><![CDATA[March supplemental person level weight - 1962-2024
+
+Unicon Corporation made the following notes about this variable:
+(Note: the 2002+ files are actually SCHIP files and are most comparable to the 2001S file). In July 2005, the Census re-released the 2004 weights.  They were recalculated based on more age detail for children to provide better estimates of children by single year of age. These TST weights will be the official weights in 2005. Apply this weight to ALL variables in 2001 forward and to supplemental variables in earlier years.  Final weight (wgtfnl) may be applied to basic variables before 2001. The following may be used as weight origination guidelines: The household record gets the householder weight. The Primary Family family record gets the householder weight. The Nonfamily Householder family record gets the householder wgt. The Related subfamily record gets the subfamily head weight. The Unrelated subfamily record gets the subfamily head weight. The Secondary Individual record gets the secondary indivdual wgt. See discussion of weights in Appendix Q.]]></txt>
+  <codInstr><![CDATA[CodesUH_WGTS_A1 is an 12-digit numeric variable.
+
+UH_WGTS_A1 has two implied decimal places. That is, 123456789012 should be interpreted as 1234567890.12. The IPUMS command files automatically make the necessary adjustment.]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var></dataDscr>
+</codeBook>
